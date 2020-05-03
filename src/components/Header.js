@@ -14,7 +14,7 @@ export default function Header({ onAction = () => {} }) {
         <ul>
           <li>
             <Link to="/Element" className="icon fa-plus">
-              Elements
+              Shop
             </Link>
             <a
               href="#footer"

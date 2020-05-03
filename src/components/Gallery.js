@@ -18,6 +18,7 @@ class Gallery extends Component {
     this.handleClickImage = this.handleClickImage.bind(this);
     this.openLightbox = this.openLightbox.bind(this);
   }
+
   openLightbox(index, event) {
     event.preventDefault();
     this.setState({
@@ -25,32 +26,38 @@ class Gallery extends Component {
       lightboxIsOpen: true,
     });
   }
+
   closeLightbox() {
     this.setState({
       currentImage: 0,
       lightboxIsOpen: false,
     });
   }
+
   gotoPrevious() {
     this.setState({
       currentImage: this.state.currentImage - 1,
     });
   }
+
   gotoNext() {
     this.setState({
       currentImage: this.state.currentImage + 1,
     });
   }
+
   gotoImage(index) {
     this.setState({
       currentImage: index,
     });
   }
+
   handleClickImage() {
     if (this.state.currentImage === this.props.images.length - 1) return;
 
     this.gotoNext();
   }
+
   renderGallery() {
     const { images } = this.props;
 
