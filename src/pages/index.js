@@ -14,6 +14,7 @@ const IndexPage = props => {
       desc: node.node.FORMAT,
     };
   });
+  console.log(imgSet);
 
   return (
     <Layout>

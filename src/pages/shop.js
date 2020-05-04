@@ -3,72 +3,15 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Footer from '../components/Footer';
 
-const IndexPage = () => (
+const ShopPage = () => (
   <Layout>
     <article className="container box style3">
-      <header>
-        <h1>Generic Box</h1>
-        <p>Shop Irina's Art</p>
-      </header>
+      <h1>Shop Irina's Art</h1>
 
       <section>
         <header>
           <h3>Divider</h3>
         </header>
-      </section>
-      <section>
-        <header>
-          <h3>Unordered List</h3>
-        </header>
-        <ul>
-          <li>
-            Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-            enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend
-            nisi ornare vel.
-          </li>
-          <li>
-            Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-            enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend
-            nisi ornare vel.
-          </li>
-          <li>
-            Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-            enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend
-            nisi ornare vel.
-          </li>
-          <li>
-            Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-            enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend
-            nisi ornare vel.
-          </li>
-        </ul>
-      </section>
-      <section>
-        <header>
-          <h3>Ordered List</h3>
-        </header>
-        <ol>
-          <li>
-            Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-            enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend
-            nisi ornare vel.
-          </li>
-          <li>
-            Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-            enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend
-            nisi ornare vel.
-          </li>
-          <li>
-            Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-            enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend
-            nisi ornare vel.
-          </li>
-          <li>
-            Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-            enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend
-            nisi ornare vel.
-          </li>
-        </ol>
       </section>
       <section>
         <header>
@@ -193,4 +136,4 @@ const IndexPage = () => (
   </Layout>
 );
 
-export default IndexPage;
+export default ShopPage;
