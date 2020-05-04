@@ -13,15 +13,23 @@ export default function Header({ onAction = () => {} }) {
       <nav>
         <ul>
           <li>
-            <Link to="/Element" className="icon fa-plus">
+            <Link to="/" className="">
+              Gallery
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className="">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/shop" className="">
               Shop
             </Link>
-            <a
-              href="#footer"
-              onClick={e => onAction(e, 'about')}
-              className="icon fa-info-circle"
-            >
-              About
+          </li>
+          <li>
+            <a href="#footer" onClick={e => onAction(e, 'about')} className="">
+              Contact
             </a>
           </li>
         </ul>

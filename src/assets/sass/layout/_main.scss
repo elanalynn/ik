@@ -19,10 +19,12 @@
   @include vendor('display', 'flex');
   @include vendor('flex-wrap', 'wrap');
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  padding-top: 5rem;
 
   .container.box {
     margin: 2em;
   }
+
   .thumb {
     @include vendor('transition', ('opacity 1.25s ease-in-out'));
     @include vendor('pointer-events', 'auto');
@@ -30,6 +32,7 @@
     opacity: 1;
     overflow: hidden;
     position: relative;
+    margin: 0.5rem;
 
     &:after {
       @include vendor(
@@ -132,7 +135,7 @@
       @include vendor('transition-delay', '#{$defaultDelay}');
       height: calc(#{100vh / ($rows + $pad)} - #{_size(header) / $rows});
       min-height: $minHeight;
-      width: (100% / $columns);
+      width: (96% / $columns);
 
       @for $i from 1 through (($rows * $columns) * 1.5) {
         &:nth-child(#{$i}) {

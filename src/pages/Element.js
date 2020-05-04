@@ -7,53 +7,14 @@ const IndexPage = () => (
   <Layout>
     <article className="container box style3">
       <header>
-        <h2>Generic Box</h2>
-        <p>Just a generic box. Nothing to see here.</p>
+        <h1>Generic Box</h1>
+        <p>Shop Irina's Art</p>
       </header>
-      <section>
-        <header>
-          <h3>Paragraph</h3>
-          <p>This is a subtitle</p>
-        </header>
-        <p>
-          Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup>{' '}
-          ac orci. Pellentesque habitant <strong>strong</strong> tristique{' '}
-          <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac
-          turpis egestas. Morbi leo suscipit ut. Praesent{' '}
-          <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
-          amet risus elit.
-        </p>
-      </section>
-      <section>
-        <header>
-          <h3>Blockquote</h3>
-        </header>
-        <blockquote>
-          Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
-          sagittis eget. tempus euismod. Vestibulum ante ipsum primis in
-          faucibus.
-        </blockquote>
-      </section>
+
       <section>
         <header>
           <h3>Divider</h3>
         </header>
-        <p>
-          Donec consectetur <a href="/#">vestibulum dolor et pulvinar</a>. Etiam
-          vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis
-          eleifend nisi ornare vel. Praesent nec orci facilisis leo magna. Cras
-          sit amet urna eros, id egestas urna. Quisque aliquam tempus euismod.
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-          posuere cubilia.
-        </p>
-        <hr />
-        <p>
-          Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim,
-          at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi
-          ornare vel. Praesent nec orci facilisis leo magna. Cras sit amet urna
-          eros, id egestas urna. Quisque aliquam tempus euismod. Vestibulum ante
-          ipsum primis in faucibus orci luctus et ultrices posuere cubilia.
-        </p>
       </section>
       <section>
         <header>

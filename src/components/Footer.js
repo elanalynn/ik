@@ -8,11 +8,8 @@ export default function Footer({ onClose, isVisible }) {
       <div className="inner split">
         <div>
           <section>
-            <h2>More about me</h2>
-            <p>
-              Part time Open source contributor. Full time Web Developer. Loves
-              to travel and shit.
-            </p>
+            <h2>About Irina</h2>
+            <p>Irina makes art and stuff</p>
           </section>
           <section>
             <h2>Follow me on ...</h2>
@@ -69,10 +66,14 @@ export default function Footer({ onClose, isVisible }) {
       </div>
       <div
         className="closer"
-        onClick={e => {
-          e.preventDefault();
-          onClose();
-        }}
+        // onClick={e => {
+        //   e.preventDefault();
+        //   onClose();
+        // }}
+        // onKeyDown={e => {
+        //   e.preventDefault();
+        //   onClose();
+        // }}
       />
     </footer>
   );

@@ -65,7 +65,7 @@ class Gallery extends Component {
 
     const gallery = images.map((obj, i) => {
       return (
-        <article className="thumb" key={obj.src}>
+        <article className="thumb" key={i}>
           <span
             style={{
               backgroundImage: `url(${obj.src})`,
@@ -73,6 +73,7 @@ class Gallery extends Component {
               outline: '0px',
             }}
             onClick={e => this.openLightbox(i, e)}
+            onKeyDown={e => this.openLightbox(i, e)}
             className="image"
           >
             <img
