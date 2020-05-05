@@ -8,13 +8,13 @@ const IndexPage = props => {
   const data = props.data.allArtCsv.edges;
   const imgSet = data.map(node => {
     return {
-      src: node.node.LINK,
-      thumbnail: node.node.LINK,
+      src: node.node.SOURCE,
+      thumbnail: node.node.SOURCE,
       title: node.node.TITLE,
       desc: node.node.FORMAT,
+      original: node.node.ORIGINAL,
     };
   });
-  console.log(imgSet);
 
   return (
     <Layout>
@@ -32,8 +32,10 @@ export const IndexQuery = graphql`
         node {
           ID
           TITLE
+          MEDIUM
           FORMAT
-          LINK
+          SOURCE
+          ORIGINAL
         }
       }
     }

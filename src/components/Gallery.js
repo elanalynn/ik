@@ -79,12 +79,16 @@ class Gallery extends Component {
             <img
               style={{ display: 'None' }}
               src={obj.thumbnail}
-              alt=""
+              alt={obj.title}
               title={obj.title}
             />
           </span>
-          <h2>{obj.title}</h2>
-          <p>{obj.desc}</p>
+          <h2>
+            <strong>{obj.title}</strong>
+          </h2>
+          {obj.original === 'TRUE' && (
+            <div className="original-tag">Original Available</div>
+          )}
         </article>
       );
     });

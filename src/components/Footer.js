@@ -8,27 +8,6 @@ export default function Footer({ onClose, isVisible }) {
       <div className="inner split">
         <div>
           <section>
-            <h2>About Irina</h2>
-            <p>Irina makes art and stuff</p>
-          </section>
-          <section>
-            <h2>Follow me on ...</h2>
-            <ul className="icons">
-              {config.socialLinks.map(social => {
-                const { icon, name, url } = social;
-                return (
-                  <li key={url}>
-                    <a href={url} className={`icon ${icon}`}>
-                      <span className="label">{name}</span>
-                    </a>
-                  </li>
-                );
-              })}
-            </ul>
-          </section>
-        </div>
-        <div>
-          <section>
             <h2>Get in touch</h2>
             <form method="post" action="#">
               <div className="fields">
@@ -56,9 +35,6 @@ export default function Footer({ onClose, isVisible }) {
                 <li>
                   <input type="submit" value="Send" className="primary" />
                 </li>
-                <li>
-                  <input type="reset" value="Reset" />
-                </li>
               </ul>
             </form>
           </section>
@@ -66,14 +42,10 @@ export default function Footer({ onClose, isVisible }) {
       </div>
       <div
         className="closer"
-        // onClick={e => {
-        //   e.preventDefault();
-        //   onClose();
-        // }}
-        // onKeyDown={e => {
-        //   e.preventDefault();
-        //   onClose();
-        // }}
+        onClick={e => {
+          e.preventDefault();
+          onClose();
+        }}
       />
     </footer>
   );
