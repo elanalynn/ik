@@ -8,11 +8,12 @@ export default function Footer({ onClose, isVisible }) {
       <section>
         <h2>Get in touch</h2>
         <form
-          name="contact"
+          name="Contact"
           method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
+          <input type="hidden" name="form-name" value="Contact" />
           <div>
             <label>
               Your Name: <input type="text" name="name" />
