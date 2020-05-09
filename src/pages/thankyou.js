@@ -1,15 +1,15 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-const AboutPage = props => {
+const ThankYouPage = props => {
   return (
     <Layout>
       <article>
-        <h1>About</h1>
-        <p>Irina is an artist based in Denver, Colorado.</p>
+        <h1>Thank you!</h1>
+        <p>Your message has been sent.</p>
       </article>
     </Layout>
   );
 };
 
-export default AboutPage;
+export default ThankYouPage;

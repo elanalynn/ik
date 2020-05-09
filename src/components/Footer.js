@@ -10,6 +10,7 @@ export default function Footer({ onClose, isVisible }) {
         <form
           name="Contact"
           method="POST"
+          action="/thank-you"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
