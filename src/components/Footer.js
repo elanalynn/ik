@@ -5,41 +5,31 @@ import config from '../../config';
 export default function Footer({ onClose, isVisible }) {
   return (
     <footer id="footer" className={`panel ${isVisible ? 'active' : ''}`}>
-      <div className="inner split">
-        <div>
-          <section>
-            <h2>Get in touch</h2>
-            <form method="post" action="/" netlify>
-              <div className="fields">
-                <div className="field half">
-                  <input type="text" name="name" id="name" placeholder="Name" />
-                </div>
-                <div className="field half">
-                  <input
-                    type="text"
-                    name="email"
-                    id="email"
-                    placeholder="Email"
-                  />
-                </div>
-                <div className="field">
-                  <textarea
-                    name="message"
-                    id="message"
-                    rows="4"
-                    placeholder="Message"
-                  />
-                </div>
-              </div>
-              <ul className="actions">
-                <li>
-                  <input type="submit" value="Send" className="primary" />
-                </li>
-              </ul>
-            </form>
-          </section>
-        </div>
-      </div>
+      <section>
+        <h2>Get in touch</h2>
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>
+              Your Name: <input type="text" name="name" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Your Email: <input type="email" name="email" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Message: <textarea name="message"></textarea>
+            </label>
+          </p>
+          <p>
+            <button type="submit" className="primary">
+              Send
+            </button>
+          </p>
+        </form>
+      </section>
       <div
         className="closer"
         onClick={e => {
