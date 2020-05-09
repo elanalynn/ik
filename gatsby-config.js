@@ -20,7 +20,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline',
     `gatsby-transformer-csv`,
     {
       resolve: `gatsby-source-filesystem`,

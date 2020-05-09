@@ -7,27 +7,32 @@ export default function Footer({ onClose, isVisible }) {
     <footer id="footer" className={`panel ${isVisible ? 'active' : ''}`}>
       <section>
         <h2>Get in touch</h2>
-        <form name="contact" method="POST" data-netlify="true">
-          <p>
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
+          <div>
             <label>
               Your Name: <input type="text" name="name" />
             </label>
-          </p>
-          <p>
+          </div>
+          <div>
             <label>
               Your Email: <input type="email" name="email" />
             </label>
-          </p>
-          <p>
+          </div>
+          <div>
             <label>
               Message: <textarea name="message"></textarea>
             </label>
-          </p>
-          <p>
+          </div>
+          <div>
             <button type="submit" className="primary">
               Send
             </button>
-          </p>
+          </div>
         </form>
       </section>
       <div
