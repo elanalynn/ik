@@ -22,11 +22,11 @@ export default function Header({ onAction = () => {} }) {
               About
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/shop" className="">
               Shop
             </Link>
-          </li>
+          </li> */}
           <li>
             <a href="#footer" onClick={e => onAction(e, 'about')} className="">
               Contact

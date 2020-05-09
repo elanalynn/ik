@@ -9,7 +9,7 @@ export default function Footer({ onClose, isVisible }) {
         <div>
           <section>
             <h2>Get in touch</h2>
-            <form method="post" action="#">
+            <form method="post" action="#" netlify>
               <div className="fields">
                 <div className="field half">
                   <input type="text" name="name" id="name" placeholder="Name" />
