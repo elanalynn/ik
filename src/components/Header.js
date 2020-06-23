@@ -7,7 +7,7 @@ export default function Header({ onAction = () => {} }) {
     <header id="header">
       <h1>
         <Link to="/">
-          <strong>{config.heading}</strong> - {config.subHeading}
+          <strong>{config.heading}</strong>
         </Link>
       </h1>
       <nav>
