@@ -25,6 +25,10 @@ body {
     margin: 0.5rem 0 0;
     vertical-align: middle;
 
+    @media screen and (max-width: 640px) {
+      width: 100px;
+    }
+
     a {
       border: 0;
 

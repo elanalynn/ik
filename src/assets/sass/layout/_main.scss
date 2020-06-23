@@ -6,12 +6,6 @@
 
 /* Main */
 
-@include breakpoint('<=medium') {
-  #main {
-    padding-top: 2rem;
-  }
-}
-
 #main {
   @include vendor(
     'transition',
@@ -25,8 +19,11 @@
   @include vendor('display', 'flex');
   @include vendor('flex-wrap', 'wrap');
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  padding-top: 6rem;
-  padding-left: 1rem;
+
+  @media screen and (min-width: 640px) {
+    padding-top: 6rem;
+    padding-left: 1rem;
+  }
 
   .container.box {
     margin: 2em;
