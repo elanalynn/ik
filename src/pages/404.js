@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 const IndexPage = () => (
   <Layout>
-    <article className="container box style3">
+    <article className="container box">
       <header>
         <h2>NOT FOUND</h2>
       </header>

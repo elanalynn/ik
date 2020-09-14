@@ -2,6 +2,8 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import Lightbox from 'react-images';
 
+import AddToCart from './AddToCart';
+
 class Gallery extends Component {
   constructor() {
     super();
@@ -63,33 +65,40 @@ class Gallery extends Component {
 
     if (!images) return;
 
-    const gallery = images.map((obj, i) => {
+    const gallery = images.map(({ id, original, thumbnail, title, src }) => {
       return (
-        <article className="thumb" key={i}>
+        <section className="gallery" key={id}>
           <span
             style={{
-              backgroundImage: `url(${obj.src})`,
+              backgroundImage: `url(${src})`,
               cursor: 'pointer',
               outline: '0px',
             }}
-            onClick={e => this.openLightbox(i, e)}
-            onKeyDown={e => this.openLightbox(i, e)}
+            onClick={e => this.openLightbox(id, e)}
+            onKeyDown={e => this.openLightbox(id, e)}
             className="image"
+            role="link"
+            tabIndex={0}
           >
             <img
               style={{ display: 'None' }}
-              src={obj.thumbnail}
-              alt={obj.title}
-              title={obj.title}
+              src={thumbnail}
+              alt={title}
+              title={title}
             />
           </span>
           <h2>
-            <strong>{obj.title}</strong>
+            <strong>{title}</strong>
           </h2>
-          {obj.original === 'TRUE' && (
-            <div className="original-tag">Original Available</div>
+          {original === 'TRUE' && (
+            <button className="original-tag" onClick={e => 'onAction(e)'}>
+              Original
+              <br />
+              Available
+            </button>
           )}
-        </article>
+          <AddToCart id={id} title={title} />
+        </section>
       );
     });
 

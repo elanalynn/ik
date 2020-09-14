@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
+import CartContext from '../contexts/CartContext';
 import Header from './Header';
 import Footer from './Footer';
 import '../assets/sass/main.scss';
@@ -9,20 +10,42 @@ import '../assets/sass/main.scss';
 class Layout extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
       isPreloaded: true,
       footerVisible: false,
+      setCount: this.setCount,
+      count: 0,
+      cart: {},
+      modifyCart: this.modifyCart,
     };
 
     this.linkHandler = this.linkHandler.bind(this);
     this.toggleFooter = this.toggleFooter.bind(this);
   }
 
-  linkHandler(e, name) {
+  setCount = () => {
+    const cart = JSON.parse(localStorage.getItem('cart')) || {};
+
+    const reducer = (acc, currentVal) => acc + currentVal;
+    const count =
+      Object.keys(cart).length &&
+      Object.values(cart)
+        .map(item => item.quan)
+        .reduce(reducer);
+
+    this.setState({ count });
+  };
+
+  modifyCart = () => {
+    const cart = JSON.parse(localStorage.getItem('cart')) || {};
+
+    this.setState({ cart });
+  };
+
+  linkHandler(e) {
     e.preventDefault();
-    if (name === 'about') {
-      this.toggleFooter();
-    }
+    this.toggleFooter();
   }
 
   toggleFooter() {
@@ -32,6 +55,8 @@ class Layout extends Component {
   componentDidMount() {
     this.timeoutId = setTimeout(() => {
       this.setState({ isPreloaded: false });
+      this.setCount();
+      this.modifyCart();
     }, 100);
   }
 
@@ -44,6 +69,7 @@ class Layout extends Component {
   render() {
     const { children } = this.props;
     const { isPreloaded, footerVisible } = this.state;
+
     return (
       <StaticQuery
         query={graphql`
@@ -64,7 +90,7 @@ class Layout extends Component {
                   name: 'description',
                   content: 'Irina Kopelevich portfolio and shop',
                 },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'keywords', content: 'art, gifts' },
               ]}
             >
               <html lang="en" />
@@ -73,22 +99,16 @@ class Layout extends Component {
               className={`main-body ${footerVisible ? 'content-active' : ''}
                ${isPreloaded ? 'is-preload' : ''}`}
             >
-              <div id="wrapper">
-                <Header onAction={this.linkHandler} />
-                <div
-                  id="main"
-                  onClick={e => {
-                    if (footerVisible) {
-                      e.preventDefault();
-                      e.stopPropagation();
-                      this.toggleFooter();
-                    }
-                  }}
-                >
-                  {children}
+              <CartContext.Provider value={this.state}>
+                <div id="wrapper">
+                  <Header onAction={this.linkHandler} />
+                  <div id="main">{children}</div>
+                  <Footer
+                    isVisible={footerVisible}
+                    onClose={this.toggleFooter}
+                  />
                 </div>
-                <Footer isVisible={footerVisible} onClose={this.toggleFooter} />
-              </div>
+              </CartContext.Provider>
             </div>
           </>
         )}

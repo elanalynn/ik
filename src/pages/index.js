@@ -8,6 +8,7 @@ const IndexPage = props => {
   const data = props.data.allArtCsv.edges;
   const imgSet = data.map(node => {
     return {
+      id: node.node.ID,
       src: node.node.SOURCE,
       thumbnail: node.node.SOURCE,
       title: node.node.TITLE,

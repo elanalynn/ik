@@ -2,6 +2,8 @@ import React from 'react';
 import config from '../../config';
 import { Link } from 'gatsby';
 
+import Badge from './Badge';
+
 export default function Header({ onAction = () => {} }) {
   return (
     <header id="header">
@@ -22,13 +24,14 @@ export default function Header({ onAction = () => {} }) {
               About
             </Link>
           </li>
-          {/* <li>
-            <Link to="/shop" className="">
-              Shop
-            </Link>
-          </li> */}
           <li>
-            <a href="#footer" onClick={e => onAction(e, 'about')} className="">
+            <Link to="/cart" className="">
+              Cart
+              <Badge />
+            </Link>
+          </li>
+          <li>
+            <a href="#footer" onClick={e => onAction(e)}>
               Contact
             </a>
           </li>

@@ -1,97 +1,15 @@
-///
-/// Multiverse by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-///
-
-/* Main */
-
 #main {
-  @include vendor(
-    'transition',
-    (
-      '-moz-filter #{_duration(panel)} ease',
-      '-webkit-filter #{_duration(panel)} ease',
-      '-ms-filter #{_duration(panel)} ease',
-      'filter #{_duration(panel)} ease'
-    )
-  );
   @include vendor('display', 'flex');
   @include vendor('flex-wrap', 'wrap');
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 
   @media screen and (min-width: 640px) {
-    padding-top: 6rem;
-    padding-left: 1rem;
+    padding-top: 8rem;
+    padding-left: 2rem;
   }
 
   .container.box {
     margin: 2em;
-  }
-
-  .thumb {
-    @include vendor('transition', ('opacity 1.25s ease-in-out'));
-    @include vendor('pointer-events', 'auto');
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-    opacity: 1;
-    overflow: hidden;
-    position: relative;
-    margin: 0.5rem;
-
-    &:after {
-      @include vendor(
-        'background-image',
-        'linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%)'
-      );
-      @include vendor('pointer-events', 'none');
-      background-size: cover;
-      content: '';
-      display: block;
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
-    }
-
-    > .image {
-      -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border: 0;
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
-    }
-
-    > h2 {
-      @include vendor('pointer-events', 'none');
-      bottom: (1.5em / 0.8);
-      left: (1.75em / 0.8);
-      margin: 0;
-      position: absolute;
-      z-index: 1;
-      background: _palette(bg);
-      padding: 0.25rem 0.5rem;
-    }
-
-    > p {
-      display: none;
-    }
-
-    > .original-tag {
-      background-color: lime;
-      transform: rotateY(45deg);
-      font-size: 1rem;
-      position: absolute;
-      width: 20%;
-      top: 0;
-      right: 0;
-      text-align: center;
-    }
   }
 
   &:after {
@@ -129,25 +47,25 @@
   }
 
   body.is-preload & {
-    .thumb {
+    .gallery {
       @include vendor('pointer-events', 'none');
       opacity: 0;
     }
   }
 
   .main-body.is-preload & {
-    .thumb {
+    .gallery {
       @include vendor('pointer-events', 'none');
       opacity: 0;
     }
   }
 
-  @mixin thumb($rows, $columns, $pad, $minHeight) {
+  @mixin gallery($rows, $columns, $pad, $minHeight) {
     $baseDelay: _duration(header) - 0.5;
     $defaultDelay: $baseDelay +
       (((($rows * $columns) + 1) * 1.5) * _duration(thumb));
 
-    .thumb {
+    .gallery {
       @include vendor('transition-delay', '#{$defaultDelay}');
       height: calc(#{100vh / ($rows + $pad)} - #{_size(header) / $rows});
       min-height: $minHeight;
@@ -165,7 +83,7 @@
   }
 
   // Default.
-  @include thumb(
+  @include gallery(
     _misc(main-layout, default, rows),
     _misc(main-layout, default, columns),
     _misc(main-layout, default, pad),
@@ -174,7 +92,7 @@
 
   // XLarge.
   @include breakpoint('<=xlarge') {
-    @include thumb(
+    @include gallery(
       _misc(main-layout, xlarge, rows),
       _misc(main-layout, xlarge, columns),
       _misc(main-layout, xlarge, pad),
@@ -184,7 +102,7 @@
 
   // Large.
   @include breakpoint('<=large') {
-    @include thumb(
+    @include gallery(
       _misc(main-layout, large, rows),
       _misc(main-layout, large, columns),
       _misc(main-layout, large, pad),
@@ -194,7 +112,7 @@
 
   // Medium.
   @include breakpoint('<=medium') {
-    @include thumb(
+    @include gallery(
       _misc(main-layout, medium, rows),
       _misc(main-layout, medium, columns),
       _misc(main-layout, medium, pad),
@@ -204,7 +122,7 @@
 
   // XSmall.
   @include breakpoint('<=xsmall') {
-    @include thumb(
+    @include gallery(
       _misc(main-layout, xsmall, rows),
       _misc(main-layout, xsmall, columns),
       _misc(main-layout, xsmall, pad),

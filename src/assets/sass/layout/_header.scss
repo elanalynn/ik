@@ -47,37 +47,24 @@ body {
       list-style: none;
       margin: 0;
       padding: 0;
+      display: flex;
 
       > li {
-        display: inline-block;
         padding: 0;
 
         a {
-          @include vendor(
-            'transition',
-            'background-color #{_duration(panel)} ease'
-          );
-          border: 0;
+          position: relative;
           color: _palette(fg-light);
-          display: inline-block;
           letter-spacing: _font(kerning-alt);
-          padding: 0 1.65em;
+          margin: 0 1.5em;
           text-transform: uppercase;
 
-          &.icon {
-            &:before {
-              color: _palette(fg-light);
-              float: right;
-              margin-left: 0.75em;
-            }
-          }
-
           &:hover {
-            color: _palette(fg-light) !important;
+            border-bottom: 4px solid _palette(accent1);
           }
 
           &.active {
-            background-color: _palette(bg);
+            border-bottom: 4px solid _palette(accent1);
           }
         }
       }

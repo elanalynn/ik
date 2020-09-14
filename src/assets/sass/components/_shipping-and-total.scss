@@ -1,0 +1,15 @@
+.shipping {
+  display: flex;
+  justify-content: space-around;
+
+  ul {
+    list-style: none;
+    padding: 1rem;
+    border: 1px solid _palette(border-bg-alt);
+  }
+}
+
+.total {
+  font-weight: 800;
+  font-size: 3rem;
+}

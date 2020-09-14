@@ -1,7 +1,5 @@
 import React from 'react';
 
-import config from '../../config';
-
 export default function Footer({ onClose, isVisible }) {
   return (
     <footer id="footer" className={`panel ${isVisible ? 'active' : ''}`}>
@@ -37,7 +35,7 @@ export default function Footer({ onClose, isVisible }) {
           </div>
         </form>
       </section>
-      <div
+      <button
         className="closer"
         onClick={e => {
           e.preventDefault();

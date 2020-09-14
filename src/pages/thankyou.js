@@ -5,7 +5,7 @@ const ThankYouPage = props => {
   return (
     <Layout>
       <article>
-        <h1>Thank you!</h1>
+        <h1>Thank you for reaching out!</h1>
         <p>Your message has been sent.</p>
       </article>
     </Layout>
