@@ -26,14 +26,33 @@ const CartItem = ({ id, title }) => {
               className="quan-button"
               onClick={() => removeFromCart(id, context)}
             >
-              -
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16px"
+                height="16px"
+                viewBox="0 0 48 48"
+              >
+                <path fill="#000" d="M 15,27 V 23 h 20 v 5 H 15 z" />
+              </svg>
             </button>
             {quan}
             <button
               className="quan-button"
               onClick={() => addToCart(id, title, context)}
             >
-              +
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16px"
+                height="16px"
+                viewBox="0 0 48 48"
+              >
+                <path
+                  fill="#000"
+                  d="M 35, 27 H 27 V 35 h -4 v -8 h -8 V 23 h 8 v -8 H 27 v 8 h 8 V 27 z"
+                />
+              </svg>
             </button>
           </div>
           <button onClick={() => removeFromCart(id, context, true)}>

@@ -1,6 +1,7 @@
 .shipping {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 
   ul {
     list-style: none;
@@ -11,5 +12,5 @@
 
 .total {
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 2rem;
 }

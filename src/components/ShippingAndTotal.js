@@ -29,10 +29,7 @@ const ShippingAndTotal = () => {
           You have {count} prints in your cart, so your shipping cost is $
           {shipping}.
         </p>
-        <p className="total">
-          Your total is
-          <br />${count * 57 + shipping}
-        </p>
+        <p className="total">Your total is ${count * 57 + shipping}</p>
       </section>
     </section>
   );

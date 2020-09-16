@@ -69,7 +69,7 @@ $font: (
   kerning-alt: 0.1em,
 );
 
-// Palette.
+// Palette
 $palette: (
   bg: #ffffff,
   bg-alt: #1f2224,
@@ -78,9 +78,10 @@ $palette: (
   bg-ie-overlay: transparentize(#242629, 0.45),
   bg-ie-overlay-alt: transparentize(#242629, 0.2),
   fg: #333333,
-  fg-bold: #222222,
-  fg-medium: #444444,
-  fg-light: #ffffff,
+  bold: #222222,
+  medium: #444444,
+  medium-light: #dddddd,
+  light: #ffffff,
   border: #36383c,
   border-bg: #34363b,
   border-bg-alt: #44464b,

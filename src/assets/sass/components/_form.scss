@@ -11,7 +11,7 @@ form {
   max-width: 30rem;
 
   label {
-    color: _palette(fg-light);
+    color: _palette(light);
   }
 
   @include breakpoint('<=small') {
@@ -42,7 +42,7 @@ form {
 }
 
 label {
-  color: _palette(fg-bold);
+  color: _palette(bold);
   display: block;
   font-size: 0.9em;
   font-weight: _font(weight-bold);
@@ -88,7 +88,7 @@ select {
   text-overflow: ellipsis;
 
   option {
-    color: _palette(fg-bold);
+    color: _palette(bold);
     background: _palette(bg);
   }
 
@@ -156,7 +156,7 @@ input[type='radio'] {
     &:before {
       background: _palette(accent1);
       border-color: _palette(accent1);
-      color: _palette(fg-bold);
+      color: _palette(bold);
       content: '\f00c';
     }
   }
@@ -184,21 +184,21 @@ input[type='radio'] {
 }
 
 ::-webkit-input-placeholder {
-  color: _palette(fg-medium) !important;
+  color: _palette(medium) !important;
   opacity: 1;
 }
 
 :-moz-placeholder {
-  color: _palette(fg-medium) !important;
+  color: _palette(medium) !important;
   opacity: 1;
 }
 
 ::-moz-placeholder {
-  color: _palette(fg-medium) !important;
+  color: _palette(medium) !important;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: _palette(fg-medium) !important;
+  color: _palette(medium) !important;
   opacity: 1;
 }

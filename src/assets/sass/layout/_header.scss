@@ -18,7 +18,7 @@ body {
   z-index: _misc(z-index-base) + 2;
 
   h1 {
-    color: _palette(fg-light);
+    color: _palette(light);
     display: inline-block;
     font-size: 1em;
     line-height: 1;
@@ -54,7 +54,7 @@ body {
 
         a {
           position: relative;
-          color: _palette(fg-light);
+          color: _palette(light);
           letter-spacing: _font(kerning-alt);
           margin: 0 1.5em;
           text-transform: uppercase;

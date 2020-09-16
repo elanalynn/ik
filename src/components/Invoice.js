@@ -22,7 +22,7 @@ const Invoice = () => {
     <section className="cart">
       <h1>Cart</h1>
       {context.count > 0 ? (
-        <section className="cart">
+        <section className="cart cart-inner">
           <table>
             <thead>
               <tr>
