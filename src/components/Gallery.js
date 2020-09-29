@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Lightbox from 'react-images';
 
 import AddToCart from './AddToCart';
+import OriginalTag from './OriginalTag';
 
 class Gallery extends Component {
   constructor() {
@@ -91,13 +92,7 @@ class Gallery extends Component {
             <h2>
               <strong>{title}</strong>
             </h2>
-            {original === 'TRUE' && (
-              <button className="original-tag" onClick={e => 'onAction(e)'}>
-                Original
-                <br />
-                Available
-              </button>
-            )}
+            {original === 'TRUE' && <OriginalTag />}
             <AddToCart id={id} title={title} priceCode={priceCode} />
           </section>
         );

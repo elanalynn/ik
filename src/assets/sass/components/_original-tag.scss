@@ -1,0 +1,23 @@
+.original-tag {
+  background-color: #eee45a;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  line-height: 1rem;
+  position: absolute;
+  width: 20%;
+  top: 0;
+  right: 1rem;
+  text-align: center;
+  box-shadow: 1px 1px 10px #222;
+  height: 3rem;
+  cursor: help;
+
+  p:first-of-type {
+    margin: 0.25rem 0;
+  }
+
+  .info {
+    background: _palette(accent1);
+  }
+}

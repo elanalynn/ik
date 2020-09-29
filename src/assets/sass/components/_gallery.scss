@@ -50,24 +50,4 @@
   > p {
     display: none;
   }
-
-  > .original-tag {
-    background-color: #eee45a;
-    font-weight: 700;
-    font-size: 0.75rem;
-    line-height: 1rem;
-    position: absolute;
-    width: 20%;
-    top: 0;
-    right: 1rem;
-    text-align: center;
-    box-shadow: 1px 1px 10px #222;
-    padding: 0;
-    height: 3rem;
-
-    &:hover {
-      box-shadow: inset 0 0 20px #cfc20c;
-      color: _palette(bold) !important;
-    }
-  }
 }
