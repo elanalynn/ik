@@ -65,42 +65,44 @@ class Gallery extends Component {
 
     if (!images) return;
 
-    const gallery = images.map(({ id, original, thumbnail, title, src }) => {
-      return (
-        <section className="gallery" key={id}>
-          <span
-            style={{
-              backgroundImage: `url(${src})`,
-              cursor: 'pointer',
-              outline: '0px',
-            }}
-            onClick={e => this.openLightbox(id, e)}
-            onKeyDown={e => this.openLightbox(id, e)}
-            className="image"
-            role="link"
-            tabIndex={0}
-          >
-            <img
-              style={{ display: 'None' }}
-              src={thumbnail}
-              alt={title}
-              title={title}
-            />
-          </span>
-          <h2>
-            <strong>{title}</strong>
-          </h2>
-          {original === 'TRUE' && (
-            <button className="original-tag" onClick={e => 'onAction(e)'}>
-              Original
-              <br />
-              Available
-            </button>
-          )}
-          <AddToCart id={id} title={title} />
-        </section>
-      );
-    });
+    const gallery = images.map(
+      ({ id, original, priceCode, src, title }, index) => {
+        return (
+          <section className="gallery" key={id}>
+            <span
+              style={{
+                backgroundImage: `url(${src})`,
+                cursor: 'pointer',
+                outline: '0px',
+              }}
+              onClick={e => this.openLightbox(index, e)}
+              onKeyDown={e => this.openLightbox(index, e)}
+              className="image"
+              role="link"
+              tabIndex={0}
+            >
+              <img
+                style={{ display: 'None' }}
+                src={src}
+                alt={title}
+                title={title}
+              />
+            </span>
+            <h2>
+              <strong>{title}</strong>
+            </h2>
+            {original === 'TRUE' && (
+              <button className="original-tag" onClick={e => 'onAction(e)'}>
+                Original
+                <br />
+                Available
+              </button>
+            )}
+            <AddToCart id={id} title={title} priceCode={priceCode} />
+          </section>
+        );
+      }
+    );
 
     return <> {gallery} </>;
   }
@@ -111,7 +113,7 @@ class Gallery extends Component {
         <Lightbox
           currentImage={this.state.currentImage}
           images={this.props.images.map(img => {
-            img.caption = `${img.title} - ${img.desc}`;
+            img.caption = `${img.title}`;
             return img;
           })}
           isOpen={this.state.lightboxIsOpen}

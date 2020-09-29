@@ -1,0 +1,10 @@
+ID,PRICE_CODE,PRODUCT_NAME,TITLE,MEDIUM,IMAGE_SIZE,MATTED_SIZE,EXT,ORIGINAL_AVAILABLE,AVAILABLE
+1001,price_1HWQmIArX6pWnJoFezTI3JbG,1001::A Dame with a Dog,A Dame with a Dog,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
+1002,price_1HWUQIArX6pWnJoFGEx9qeHO,1002::A Game of Chess,A Game of Chess,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
+1003,price_1HWUQIArX6pWnJoFCTTxv9Ti,1003::A Man with a Cat,A Man with a Cat,Tempera and ink wash,"10"" x 10""","16"" x 20""",jpg,FALSE,TRUE
+1005,price_1HWUQIArX6pWnJoF9ntMp2Ia,1005::A Woman in Red Stripes,A Woman in Red Stripes,Digital,,"16"" x 20""",jpg,FALSE,TRUE
+1006,price_1HWUQIArX6pWnJoFDDvAYiua,1006::Ananas Lady,Ananas Lady,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
+1008,price_1HWUQIArX6pWnJoFyfaLFlj9,1008::Ballerina,Ballerina,Tempera and ink wash,,"16"" x 20""",jpg,TRUE,TRUE
+1010,price_1HWUQIArX6pWnJoFAPiBLzDj,1010::Biker,Biker,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
+1012,price_1HWUQIArX6pWnJoFd9jwfgLA,1012::Blue City,Blue City,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
+

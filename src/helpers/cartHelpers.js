@@ -1,4 +1,4 @@
-export const addToCart = (id, title, { modifyCart, setCount }) => {
+export const addToCart = (id, priceCode, title, { modifyCart, setCount }) => {
   const cart = JSON.parse(localStorage.getItem('cart')) || {};
 
   if (cart[id]) {
@@ -6,6 +6,7 @@ export const addToCart = (id, title, { modifyCart, setCount }) => {
   } else {
     cart[id] = {
       title,
+      priceCode,
       quan: 1,
     };
   }

@@ -8,3 +8,9 @@ yarn.lock
 # Build directory
 /public
 .DS_Store
+
+# ENV VARS
+.env.*
+
+# LOCAL
+bulk_product_upload.js

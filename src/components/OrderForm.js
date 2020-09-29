@@ -5,9 +5,9 @@ const OrderForm = () => (
   <section className="order-form">
     <h2>Ready to Order?</h2>
     <h3>
-      Enter <em>Shipping Information</em> Here
+      Enter <em>shipping</em> info here.
     </h3>
-    <p>We will ask for billing information on the next page.</p>
+    <p>We will ask for basic billing info on the next page.</p>
     <form
       name="Order"
       method="POST"
@@ -15,7 +15,7 @@ const OrderForm = () => (
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
-      <input type="hidden" name="form-name" value="Contact" />
+      <input type="hidden" name="form-name" value="order" />
 
       <div>
         <label>

@@ -2,12 +2,12 @@ import React, { useContext } from 'react';
 import CartContext from '../contexts/CartContext';
 import { addToCart } from '../helpers/cartHelpers';
 
-const AddToCart = ({ id, title }) => {
+const AddToCart = ({ id, priceCode, title }) => {
   const context = useContext(CartContext);
   return (
     <button
       className="add-to-cart"
-      onClick={() => addToCart(id, title, context)}
+      onClick={() => addToCart(id, priceCode, title, context)}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

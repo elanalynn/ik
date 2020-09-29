@@ -34,7 +34,19 @@ const Invoice = () => {
                 <th>Subtotal</th>
               </tr>
             </thead>
-            <tbody>{renderItems(cart)}</tbody>
+            <tbody>
+              {renderItems(cart)}
+              {context.count < 4 && (
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>Shipping</td>
+                  <td>$8</td>
+                </tr>
+              )}
+            </tbody>
           </table>
           <ShippingAndTotal />
           <OrderForm />

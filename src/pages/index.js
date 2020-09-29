@@ -4,16 +4,20 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Gallery from '../components/Gallery';
 
+const imgBaseUrl = 'https://irina-assets.s3-us-west-1.amazonaws.com/';
+
 const IndexPage = props => {
   const data = props.data.allArtCsv.edges;
-  const imgSet = data.map(node => {
+  const imgSet = data.map(({ node }) => {
     return {
-      id: node.node.ID,
-      src: node.node.SOURCE,
-      thumbnail: node.node.SOURCE,
-      title: node.node.TITLE,
-      desc: node.node.FORMAT,
-      original: node.node.ORIGINAL,
+      id: node.ID,
+      available: node.AVAILABLE,
+      ext: node.EXT,
+      mattedSize: node.MATTED_SIZE,
+      original: node.ORIGINAL_AVAILABLE,
+      priceCode: node.PRICE_CODE,
+      src: `${imgBaseUrl}${node.ID}.${node.EXT}`,
+      title: node.TITLE,
     };
   });
 
@@ -32,11 +36,13 @@ export const IndexQuery = graphql`
       edges {
         node {
           ID
-          TITLE
+          AVAILABLE
+          EXT
+          MATTED_SIZE
           MEDIUM
-          FORMAT
-          SOURCE
-          ORIGINAL
+          ORIGINAL_AVAILABLE
+          PRICE_CODE
+          TITLE
         }
       }
     }

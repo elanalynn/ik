@@ -4,7 +4,7 @@ import { addToCart, removeFromCart } from '../helpers/cartHelpers';
 
 const imgUrlBase = 'https://irina-assets.s3-us-west-1.amazonaws.com/';
 
-const CartItem = ({ id, title }) => {
+const CartItem = ({ id, priceCode, title }) => {
   const context = useContext(CartContext);
   const { cart } = context;
   const { quan } = Object.keys(cart).length ? cart[id] : 0;
@@ -39,7 +39,7 @@ const CartItem = ({ id, title }) => {
             {quan}
             <button
               className="quan-button"
-              onClick={() => addToCart(id, title, context)}
+              onClick={() => addToCart(id, title, priceCode, context)}
             >
               <svg
                 version="1.1"
@@ -60,8 +60,8 @@ const CartItem = ({ id, title }) => {
           </button>
         </div>
       </td>
-      <td>$57</td>
-      <td>${57 * quan}</td>
+      <td>$60</td>
+      <td>${60 * quan}</td>
     </tr>
   ) : null;
 };

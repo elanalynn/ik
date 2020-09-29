@@ -20,10 +20,6 @@ button,
 
   &:hover {
     box-shadow: inset 0 0 0 2px _palette(accent1);
-
-    &:active {
-      background-color: transparentize(_palette(accent1), 0.85);
-    }
   }
 
   &.fit {
