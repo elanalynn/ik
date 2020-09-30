@@ -69,32 +69,20 @@ class Gallery extends Component {
     const gallery = images.map(
       ({ id, original, priceCode, src, title }, index) => {
         return (
-          <section className="gallery" key={id}>
-            <span
-              style={{
-                backgroundImage: `url(${src})`,
-                cursor: 'pointer',
-                outline: '0px',
-              }}
-              onClick={e => this.openLightbox(index, e)}
-              onKeyDown={e => this.openLightbox(index, e)}
-              className="image"
-              role="link"
-              tabIndex={0}
-            >
-              <img
-                style={{ display: 'None' }}
-                src={src}
-                alt={title}
-                title={title}
-              />
-            </span>
+          /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+          <article
+            key={id}
+            className="image"
+            onClick={e => this.openLightbox(index, e)}
+            onKeyDown={e => this.openLightbox(index, e)}
+          >
+            <img src={src} alt={title} title={title} />
             <h2>
               <strong>{title}</strong>
             </h2>
             {original === 'TRUE' && <OriginalTag />}
             <AddToCart id={id} title={title} priceCode={priceCode} />
-          </section>
+          </article>
         );
       }
     );
@@ -103,7 +91,7 @@ class Gallery extends Component {
   }
   render() {
     return (
-      <>
+      <div className="gallery">
         {this.renderGallery()}
         <Lightbox
           currentImage={this.state.currentImage}
@@ -118,7 +106,7 @@ class Gallery extends Component {
           onClickThumbnail={this.gotoImage}
           onClose={this.closeLightbox}
         />
-      </>
+      </div>
     );
   }
 }

@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 const AboutPage = props => {
   return (
     <Layout>
-      <article>
+      <article className="about">
         <h1>About</h1>
         <p>Irina is an artist based in Denver, Colorado.</p>
       </article>

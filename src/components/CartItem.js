@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import CartContext from '../contexts/CartContext';
 import { addToCart, removeFromCart } from '../helpers/cartHelpers';
+import { desktop } from '../helpers/responsiveHelpers';
 
 const imgUrlBase = 'https://irina-assets.s3-us-west-1.amazonaws.com/';
 
@@ -11,14 +12,15 @@ const CartItem = ({ id, priceCode, title }) => {
 
   return quan ? (
     <tr>
-      <td>{id}</td>
+      {desktop && <td>{id}</td>}
       <td>
         <h3>{title}</h3>
-        {}
       </td>
-      <td>
-        <img alt={title} src={`${imgUrlBase}${id}.jpg`} />
-      </td>
+      {desktop && (
+        <td>
+          <img alt={title} src={`${imgUrlBase}${id}.jpg`} />
+        </td>
+      )}
       <td className="quan">
         <div>
           <div>
@@ -39,7 +41,7 @@ const CartItem = ({ id, priceCode, title }) => {
             {quan}
             <button
               className="quan-button"
-              onClick={() => addToCart(id, title, priceCode, context)}
+              onClick={e => addToCart(e, id, title, priceCode, context)}
             >
               <svg
                 version="1.1"
@@ -60,7 +62,7 @@ const CartItem = ({ id, priceCode, title }) => {
           </button>
         </div>
       </td>
-      <td>$60</td>
+      {desktop && <td>$60</td>}
       <td>${60 * quan}</td>
     </tr>
   ) : null;

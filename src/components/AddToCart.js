@@ -7,7 +7,7 @@ const AddToCart = ({ id, priceCode, title }) => {
   return (
     <button
       className="add-to-cart"
-      onClick={() => addToCart(id, priceCode, title, context)}
+      onClick={e => addToCart(e, id, priceCode, title, context)}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

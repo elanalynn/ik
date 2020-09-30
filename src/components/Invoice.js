@@ -5,6 +5,7 @@ import CartContext from '../contexts/CartContext';
 import CartItem from '../components/CartItem';
 import ShippingAndTotal from '../components/ShippingAndTotal';
 import OrderForm from '../components/OrderForm';
+import { desktop } from '../helpers/responsiveHelpers';
 
 const renderItems = cart => {
   return Object.entries(cart).map(item => {
@@ -16,7 +17,7 @@ const renderItems = cart => {
 
 const Invoice = () => {
   const context = useContext(CartContext);
-  const cart = JSON.parse(localStorage.getItem('cart')) || {};
+  const cart = JSON.parse(window.localStorage.getItem('cart')) || {};
 
   return (
     <section className="cart">
@@ -26,11 +27,11 @@ const Invoice = () => {
           <table>
             <thead>
               <tr>
-                <th>ID</th>
+                {desktop && <th>ID</th>}
                 <th>Title</th>
-                <th>Image</th>
+                {desktop && <th>Image</th>}
                 <th>Quantity</th>
-                <th>Unit Price</th>
+                {desktop && <th>Unit Price</th>}
                 <th>Subtotal</th>
               </tr>
             </thead>
@@ -38,9 +39,9 @@ const Invoice = () => {
               {renderItems(cart)}
               {context.count < 4 && (
                 <tr>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  {desktop && <td></td>}
+                  {desktop && <td></td>}
+                  {desktop && <td></td>}
                   <td></td>
                   <td>Shipping</td>
                   <td>$8</td>

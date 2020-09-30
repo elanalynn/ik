@@ -1,53 +1,48 @@
 .gallery {
-  @include vendor('transition', ('opacity 1.25s ease-in-out'));
-  @include vendor('pointer-events', 'auto');
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  opacity: 1;
-  overflow: hidden;
-  position: relative;
-  margin: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
 
-  &:after {
-    @include vendor(
-      'background-image',
-      'linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%)'
-    );
-    @include vendor('pointer-events', 'none');
-    background-size: cover;
-    content: '';
-    display: block;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
+  @media screen and (min-width: 40rem) {
+    max-width: 50rem;
   }
 
-  > .image {
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 0;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
+  @media screen and (min-width: 75rem) {
+    max-width: 75rem;
   }
 
-  > h2 {
-    @include vendor('pointer-events', 'none');
-    bottom: (1.5em / 0.8);
-    left: (1.75em / 0.8);
-    margin: 0;
-    position: absolute;
-    z-index: 1;
-    background: _palette(bg);
-    padding: 0.25rem 0.5rem;
+  @media screen and (min-width: 100rem) {
+    max-width: 100rem;
   }
 
-  > p {
-    display: none;
+  .image {
+    width: auto;
+    height: 16rem;
+    overflow: hidden;
+    position: relative;
+    margin: 0.5rem;
+
+    @media screen and (min-width: 40rem) {
+      width: 24rem;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    > h2 {
+      margin: 0;
+      position: absolute;
+      bottom: 1rem;
+      left: 1rem;
+      z-index: 1;
+      background: _palette(bg);
+    }
+
+    h2 {
+      padding: 0.25rem 0.5rem;
+    }
   }
 }
