@@ -1,1 +1,1 @@
-export const desktop = document.body.clientWidth > 640;
+export const desktop = document && document.body.clientWidth > 640;

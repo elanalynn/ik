@@ -17,7 +17,10 @@ const renderItems = cart => {
 
 const Invoice = () => {
   const context = useContext(CartContext);
-  const cart = JSON.parse(window.localStorage.getItem('cart')) || {};
+  const cart =
+    window && window.localStorage.getItem('cart')
+      ? JSON.parse(window.localStorage.getItem('cart'))
+      : {};
 
   return (
     <section className="cart">

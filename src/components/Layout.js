@@ -25,7 +25,10 @@ class Layout extends Component {
   }
 
   setCount = () => {
-    const cart = JSON.parse(window.localStorage.getItem('cart')) || {};
+    const cart =
+      window && window.localStorage.getItem('cart')
+        ? JSON.parse(window.localStorage.getItem('cart'))
+        : {};
 
     const reducer = (acc, currentVal) => acc + currentVal;
     const count =
@@ -38,7 +41,10 @@ class Layout extends Component {
   };
 
   modifyCart = () => {
-    const cart = JSON.parse(window.localStorage.getItem('cart')) || {};
+    const cart =
+      window && window.localStorage.getItem('cart')
+        ? JSON.parse(window.localStorage.getItem('cart'))
+        : {};
 
     this.setState({ cart });
   };

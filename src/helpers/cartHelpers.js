@@ -17,7 +17,7 @@ export const addToCart = (
       quan: 1,
     };
   }
-  window.localStorage.setItem('cart', JSON.stringify(cart));
+  if (window) window.localStorage.setItem('cart', JSON.stringify(cart));
   setCount();
   modifyCart();
 };
@@ -33,7 +33,7 @@ export const removeFromCart = (id, { modifyCart, setCount }, all = false) => {
     cart[id].quan = cart[id].quan - 1;
   }
 
-  window.localStorage.setItem('cart', JSON.stringify(cart));
+  if (window) window.localStorage.setItem('cart', JSON.stringify(cart));
   setCount();
   modifyCart();
 };
