@@ -72,7 +72,7 @@ ID,PRICE_CODE,PRODUCT_NAME,TITLE,MEDIUM,IMAGE_SIZE,MATTED_SIZE,EXT,ORIGINAL_AVAI
 1079,price_1HWQo4ArX6pWnJoFgHFtTlQ0,1079::In the Met with Dinne,In the Met with Dinne,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
 1080,price_1HWQo4ArX6pWnJoFwDsLP2Un,1080::Happy Passover,Happy Passover,Digital,,"16"" x 20""",png,TRUE,TRUE
 1081,price_1HWQo4ArX6pWnJoFXj2urNEP,1081::Intercontinental Midsummer Dream,Intercontinental Midsummer Dream,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
-1082,price_1HWQo4ArX6pWnJoF2FUGCf0F,1082::Lightness of Being,Lightness of Being,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
+1082,price_1HWQo4ArX6pWnJoF2FUGCf0F,1082::Lightness of Being,Lightness of Being,Tempera and ink wash,"11"" x 14""","16"" x 20""",png,FALSE,TRUE
 1083,price_1HWQo4ArX6pWnJoFth7pZlZu,1083::Dancers,Dancers,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
 1084,price_1HWQo4ArX6pWnJoFzxKWEzHa,1084::Joy to the World,Joy to the World,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
 1085,price_1HWQo4ArX6pWnJoFWSY8QpG1,1085::Joy to the World-1,Joy to the World-1,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
@@ -82,7 +82,6 @@ ID,PRICE_CODE,PRODUCT_NAME,TITLE,MEDIUM,IMAGE_SIZE,MATTED_SIZE,EXT,ORIGINAL_AVAI
 1089,price_1HWQo4ArX6pWnJoFXvqq4ktH,1089::Cello,Cello,Digital,,"16"" x 20""",png,TRUE,TRUE
 1090,price_1HWQo4ArX6pWnJoFHlvwNOM1,1090::Jogglers,Jogglers,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
 1091,price_1HWQo4ArX6pWnJoF3a1CMxuF,1091::Heron,Heron,Digital,,"16"" x 20""",png,TRUE,TRUE
-1092,price_1HWQo4ArX6pWnJoF5ofOTYpY,1092::King Cat,King Cat,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
 1093,price_1HWQo4ArX6pWnJoF5Ynrn8cc,1093::Making Music,Making Music,Watercolor,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
 1094,price_1HWQo4ArX6pWnJoFOs0K35cL,1094::Klimt,Klimt,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
 1095,price_1HWQo4ArX6pWnJoFRrVdDidG,1095::Lady with Birdcage,Lady with Birdcage,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
