@@ -5,6 +5,7 @@ import CartContext from '../contexts/CartContext';
 import CartItem from '../components/CartItem';
 import ShippingAndTotal from '../components/ShippingAndTotal';
 import OrderForm from '../components/OrderForm';
+import { getCart } from '../helpers/cartHelpers';
 
 const renderItems = cart => {
   return Object.entries(cart).map(item => {
@@ -19,10 +20,7 @@ const Invoice = () => {
   const [desktop, setDesktop] = useState(false);
   useEffect(() => setDesktop(document.body.clientWidth > 640), []);
 
-  const cart =
-    window && window.localStorage.getItem('cart')
-      ? JSON.parse(window.localStorage.getItem('cart'))
-      : {};
+  const cart = getCart();
 
   return (
     <section className="cart">

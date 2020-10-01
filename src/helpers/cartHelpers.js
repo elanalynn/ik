@@ -1,3 +1,14 @@
+export const getCart = () => {
+  return typeof window !== 'undefined' && window.localStorage.getItem('cart')
+    ? JSON.parse(window.localStorage.getItem('cart'))
+    : {};
+};
+
+export const setCart = cart => {
+  if (typeof window !== 'undefined')
+    window.localStorage.setItem('cart', JSON.stringify(cart));
+};
+
 export const addToCart = (
   event,
   id,
@@ -6,7 +17,7 @@ export const addToCart = (
   { modifyCart, setCount }
 ) => {
   event.stopPropagation();
-  const cart = JSON.parse(window.localStorage.getItem('cart')) || {};
+  const cart = getCart();
 
   if (cart[id]) {
     cart[id].quan = cart[id].quan + 1;
@@ -17,13 +28,13 @@ export const addToCart = (
       quan: 1,
     };
   }
-  if (window) window.localStorage.setItem('cart', JSON.stringify(cart));
+  setCart(cart);
   setCount();
   modifyCart();
 };
 
 export const removeFromCart = (id, { modifyCart, setCount }, all = false) => {
-  const cart = JSON.parse(window.localStorage.getItem('cart')) || {};
+  const cart = getCart();
 
   if ((cart[id] && cart[id].quan === 1) || all) {
     delete cart[id];
@@ -33,7 +44,7 @@ export const removeFromCart = (id, { modifyCart, setCount }, all = false) => {
     cart[id].quan = cart[id].quan - 1;
   }
 
-  if (window) window.localStorage.setItem('cart', JSON.stringify(cart));
+  setCart(cart);
   setCount();
   modifyCart();
 };

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 import CartContext from '../contexts/CartContext';
+import { getCart } from '../helpers/cartHelpers';
 import Header from './Header';
 import Footer from './Footer';
 import '../assets/sass/main.scss';
@@ -25,10 +26,7 @@ class Layout extends Component {
   }
 
   setCount = () => {
-    const cart =
-      window && window.localStorage.getItem('cart')
-        ? JSON.parse(window.localStorage.getItem('cart'))
-        : {};
+    const cart = getCart();
 
     const reducer = (acc, currentVal) => acc + currentVal;
     const count =
@@ -41,10 +39,7 @@ class Layout extends Component {
   };
 
   modifyCart = () => {
-    const cart =
-      window && window.localStorage.getItem('cart')
-        ? JSON.parse(window.localStorage.getItem('cart'))
-        : {};
+    const cart = getCart();
 
     this.setState({ cart });
   };
@@ -96,7 +91,7 @@ class Layout extends Component {
                   name: 'description',
                   content: 'Irina Kopelevich portfolio and shop',
                 },
-                { name: 'keywords', content: 'art, gifts' },
+                { name: 'keywords', content: 'art, originals, prints, gifts' },
               ]}
             >
               <html lang="en" />

@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 const CheckoutSuccessPage = () => {
-  if (window) window.localStorage.clear();
+  if (typeof window !== 'undefined') window.localStorage.clear();
   return (
     <Layout>
       <article className="checkout-success">
