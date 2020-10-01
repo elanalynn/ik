@@ -67,7 +67,8 @@ class Gallery extends Component {
     if (!images) return;
 
     const gallery = images.map(
-      ({ id, original, priceCode, src, title }, index) => {
+      ({ id, available, original, priceCode, src, title }, index) => {
+        console.log(title, available);
         return (
           /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
           <article
@@ -81,7 +82,9 @@ class Gallery extends Component {
               <strong>{title}</strong>
             </h2>
             {original === 'TRUE' && <OriginalTag />}
-            <AddToCart id={id} title={title} priceCode={priceCode} />
+            {available === 'TRUE' && (
+              <AddToCart id={id} title={title} priceCode={priceCode} />
+            )}
           </article>
         );
       }

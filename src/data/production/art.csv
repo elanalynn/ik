@@ -78,7 +78,7 @@ ID,PRICE_CODE,PRODUCT_NAME,TITLE,MEDIUM,IMAGE_SIZE,MATTED_SIZE,EXT,ORIGINAL_AVAI
 1085,price_1HWQo4ArX6pWnJoFWSY8QpG1,1085::Joy to the World-1,Joy to the World-1,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
 1086,price_1HWQo4ArX6pWnJoFzgfcYtKP,1086::Joy to the World-2,Joy to the World-2,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
 1087,price_1HWQo4ArX6pWnJoFSN5BHBuc,1087::Dancer in Green Skirt,Dancer in Green Skirt,Digital,,"16"" x 20""",jpg,FALSE,TRUE
-1088,price_1HWQo4ArX6pWnJoFlexYO6Yd,1088::Chuppah,Chuppah,Cloth,,"16"" x 20""",jpg,FALSE,TRUE
+1088,price_1HWQo4ArX6pWnJoFlexYO6Yd,1088::Chuppah,Chuppah,Cloth,,"16"" x 20""",jpg,FALSE, FALSE
 1089,price_1HWQo4ArX6pWnJoFXvqq4ktH,1089::Cello,Cello,Digital,,"16"" x 20""",png,TRUE,TRUE
 1090,price_1HWQo4ArX6pWnJoFHlvwNOM1,1090::Jogglers,Jogglers,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
 1091,price_1HWQo4ArX6pWnJoF3a1CMxuF,1091::Heron,Heron,Digital,,"16"" x 20""",png,TRUE,TRUE
@@ -123,7 +123,7 @@ ID,PRICE_CODE,PRODUCT_NAME,TITLE,MEDIUM,IMAGE_SIZE,MATTED_SIZE,EXT,ORIGINAL_AVAI
 1131,price_1HWQo4ArX6pWnJoF833gqwdA,1131::Starlight Kiss,Starlight Kiss,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
 1132,price_1HWQo4ArX6pWnJoFF3r5ZfSw,1132::Solving World Problems,Solving World Problems,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
 1133,price_1HWQo4ArX6pWnJoFyydXZ6BR,1133::Wedding4,Wedding4,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1134,price_1HWQo4ArX6pWnJoFx294uZo5,1134::Violinist,Violinist,Mixed media,,"16"" x 20""",jpg,FALSE,TRUE
+1134,price_1HWQo4ArX6pWnJoFx294uZo5,1134::Violinist,Violinist,Mixed media,,"16"" x 20""",jpg,FALSE,FALSE
 1135,price_1HWQo4ArX6pWnJoFlsW1xsMR,1135::Wedding2,Wedding2,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
 1136,price_1HWQo4ArX6pWnJoFnZUEE7cp,1136::Rooster,Rooster,Digital,,"16"" x 20""",png,FALSE,TRUE
 1137,price_1HWQo4ArX6pWnJoFrLiWEikG,1137::Piano Player,Piano Player,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
