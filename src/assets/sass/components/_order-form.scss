@@ -5,10 +5,6 @@
   flex-direction: column;
   align-items: center;
 
-  form {
-    width: 100%;
-  }
-
   em {
     color: red;
     font-weight: 700;
@@ -22,12 +18,38 @@
     color: _palette(medium);
   }
 
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .required,
+  .error {
+    color: red;
+  }
+
   label {
     color: _palette(medium);
   }
 
   input,
+  select,
   textarea {
     border: 1px solid #ccc;
+
+    &:invalid.touched {
+      border: 2px solid red;
+    }
+  }
+
+  button {
+    background-color: _palette(accent1);
+    align-self: center;
+
+    &:hover {
+      color: _palette(bold);
+      box-shadow: 0 0 20px 2px _palette(accent2);
+    }
   }
 }

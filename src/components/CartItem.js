@@ -1,12 +1,13 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import CartContext from '../contexts/CartContext';
 import { addToCart, removeFromCart } from '../helpers/cartHelpers';
-import { desktop } from '../helpers/responsiveHelpers';
 
 const imgUrlBase = 'https://irina-assets.s3-us-west-1.amazonaws.com/';
 
 const CartItem = ({ id, priceCode, title }) => {
   const context = useContext(CartContext);
+  const [desktop, setDesktop] = useState(false);
+  useEffect(() => setDesktop(document.body.clientWidth > 640), []);
   const { cart } = context;
   const { quan } = Object.keys(cart).length ? cart[id] : 0;
 

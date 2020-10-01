@@ -1,11 +1,10 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'gatsby';
 
 import CartContext from '../contexts/CartContext';
 import CartItem from '../components/CartItem';
 import ShippingAndTotal from '../components/ShippingAndTotal';
 import OrderForm from '../components/OrderForm';
-import { desktop } from '../helpers/responsiveHelpers';
 
 const renderItems = cart => {
   return Object.entries(cart).map(item => {
@@ -17,6 +16,9 @@ const renderItems = cart => {
 
 const Invoice = () => {
   const context = useContext(CartContext);
+  const [desktop, setDesktop] = useState(false);
+  useEffect(() => setDesktop(document.body.clientWidth > 640), []);
+
   const cart =
     window && window.localStorage.getItem('cart')
       ? JSON.parse(window.localStorage.getItem('cart'))
