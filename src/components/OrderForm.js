@@ -4,8 +4,8 @@ import { loadStripe } from '@stripe/stripe-js';
 
 import CartContext from '../contexts/CartContext';
 const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-const shipping = `${process.env.STRIPE_SHIPPING_PRICE_CODE}`;
-const stripePromise = loadStripe(`${process.env.STRIPE_PUBLISHABLE_KEY}`);
+const shipping = process.env.GATSBY_STRIPE_SHIPPING_PRICE_CODE;
+const stripePromise = loadStripe(process.env.GATSBY_STRIPE_PUBLISHABLE_KEY);
 
 const getLineItems = (cart, count) => {
   const lineItems = [];
@@ -27,8 +27,8 @@ const redirectToCheckout = async lineItems => {
   const { error } = await stripe.redirectToCheckout({
     lineItems,
     mode: 'payment',
-    successUrl: 'https://www.irinakopelevich.com/checkout_success',
-    cancelUrl: 'https://www.irinakopelevich.com/cart',
+    successUrl: `${process.env.GATSBY_BASE_URL}/checkout_success`,
+    cancelUrl: `${process.env.GATSBY_BASE_URL}/cart`,
   });
 
   if (error) {
