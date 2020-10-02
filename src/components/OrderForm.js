@@ -49,13 +49,14 @@ const OrderForm = () => {
       </h3>
       <p>We will ask for basic billing info on the next page.</p>
       <form
-        name="order"
+        name="Order"
         method="POST"
+        action="/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit(() => redirectToCheckout(lineItems))}
       >
-        <input type="hidden" name="form-name" value="order" />
+        <input type="hidden" name="form-name" value="Order" />
 
         <div>
           <label>
