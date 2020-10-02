@@ -27,8 +27,8 @@ const redirectToCheckout = async lineItems => {
   const { error } = await stripe.redirectToCheckout({
     lineItems,
     mode: 'payment',
-    successUrl: `${process.env.BASE_URL}/checkout_success`,
-    cancelUrl: `${process.env.BASE_URL}/cart`,
+    successUrl: 'https://www.irinakopelevich.com/checkout_success',
+    cancelUrl: 'https://www.irinakopelevich.com/cart',
   });
 
   if (error) {

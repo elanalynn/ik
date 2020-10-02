@@ -68,7 +68,6 @@ class Gallery extends Component {
 
     const gallery = images.map(
       ({ id, available, original, priceCode, src, title }, index) => {
-        console.log(title, available);
         return (
           /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
           <article
