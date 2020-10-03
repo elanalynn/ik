@@ -27,14 +27,21 @@ const getLineItems = (cart, count) => {
 const redirectToCheckout = async (data, event, lineItems) => {
   event.preventDefault();
 
-  axios
-    .post('/', data)
-    .then(res => {
-      console.log(res.status);
-    })
-    .catch(err => {
-      console.log(err);
-    });
+  const serialized = {
+    email: data.email,
+    address_1: data.address1,
+    address_2: data.address2,
+    city: data.city,
+    state: data.state,
+    zip: data.zip,
+    instructions: data.message,
+  };
+
+  axios({
+    method: 'post',
+    url: process.env.GATSBY_API_URL,
+    data: serialized,
+  });
 
   const stripe = await stripePromise;
   const { error } = await stripe.redirectToCheckout({
@@ -62,11 +69,6 @@ const OrderForm = () => {
       </h3>
       <p>We will ask for basic billing info on the next page.</p>
       <form
-        name="Order"
-        method="POST"
-        action="/"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit((data, event) =>
           redirectToCheckout(data, event, lineItems)
         )}
