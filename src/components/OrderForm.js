@@ -3,6 +3,8 @@ import { useForm } from 'react-hook-form';
 import { loadStripe } from '@stripe/stripe-js';
 
 import CartContext from '../contexts/CartContext';
+
+const axios = require('axios').default;
 const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 const shipping = process.env.GATSBY_STRIPE_SHIPPING_PRICE_CODE;
 const stripePromise = loadStripe(process.env.GATSBY_STRIPE_PUBLISHABLE_KEY);
@@ -22,7 +24,18 @@ const getLineItems = (cart, count) => {
   return lineItems;
 };
 
-const redirectToCheckout = async lineItems => {
+const redirectToCheckout = async (data, event, lineItems) => {
+  event.preventDefault();
+
+  axios
+    .post('/', data)
+    .then(res => {
+      console.log(res.status);
+    })
+    .catch(err => {
+      console.log(err);
+    });
+
   const stripe = await stripePromise;
   const { error } = await stripe.redirectToCheckout({
     lineItems,
@@ -54,7 +67,9 @@ const OrderForm = () => {
         action="/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        onSubmit={handleSubmit(() => redirectToCheckout(lineItems))}
+        onSubmit={handleSubmit((data, event) =>
+          redirectToCheckout(data, event, lineItems)
+        )}
       >
         <input type="hidden" name="form-name" value="Order" />
 
