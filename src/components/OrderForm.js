@@ -24,7 +24,7 @@ const getLineItems = (cart, count) => {
   return lineItems;
 };
 
-const redirectToCheckout = async (data, event, lineItems) => {
+const onSubmit = (data, event, lineItems) => {
   event.preventDefault();
 
   const serialized = {
@@ -37,12 +37,18 @@ const redirectToCheckout = async (data, event, lineItems) => {
     instructions: data.message,
   };
 
-  axios({
-    method: 'post',
-    url: process.env.GATSBY_API_URL,
-    data: serialized,
-  });
+  axios
+    .post(process.env.GATSBY_API_URL, serialized)
+    .then(response => {
+      console.log(`${response.status}::${response.statusText}`);
+      redirectToCheckout(lineItems);
+    })
+    .catch(error => {
+      console.log(error);
+    });
+};
 
+const redirectToCheckout = async lineItems => {
   const stripe = await stripePromise;
   const { error } = await stripe.redirectToCheckout({
     lineItems,
@@ -69,12 +75,11 @@ const OrderForm = () => {
       </h3>
       <p>We will ask for basic billing info on the next page.</p>
       <form
+        name="order"
         onSubmit={handleSubmit((data, event) =>
-          redirectToCheckout(data, event, lineItems)
+          onSubmit(data, event, lineItems)
         )}
       >
-        <input type="hidden" name="form-name" value="Order" />
-
         <div>
           <label>
             Your Email<span className="required">*</span>:{' '}
