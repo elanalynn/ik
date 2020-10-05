@@ -1,132 +1,134 @@
 ID,PRICE_CODE,PRODUCT_NAME,TITLE,MEDIUM,IMAGE_SIZE,MATTED_SIZE,EXT,ORIGINAL_AVAILABLE,AVAILABLE
-1001,price_1HWQo4ArX6pWnJoFuYQaruuw,1001::A Dame with a Dog,A Dame with a Dog,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
-1002,price_1HWQo4ArX6pWnJoF82hSm5BY,1002::A Game of Chess,A Game of Chess,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1003,price_1HWQo4ArX6pWnJoF4mTuirgy,1003::A Man with a Cat,A Man with a Cat,Tempera and ink wash,"10"" x 10""","16"" x 20""",jpg,FALSE,TRUE
-1004,price_1HWQo4ArX6pWnJoFOmUzY7Ku,1004::A Trip Abroad,A Trip Abroad,Tempera and ink wash,,"16"" x 20""",jpg,TRUE,TRUE
-1005,price_1HWQo4ArX6pWnJoF79Cinxm9,1005::A Woman in Red Stripes,A Woman in Red Stripes,Digital,,"16"" x 20""",jpg,FALSE,TRUE
-1006,price_1HWQo4ArX6pWnJoFKMXkTECG,1006::Ananas Lady,Ananas Lady,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1007,price_1HWQo4ArX6pWnJoFUKAdJ6mz,1007::Army,Army,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1008,price_1HWQo4ArX6pWnJoFnfqYMsLW,1008::Ballerina,Ballerina,Tempera and ink wash,,"16"" x 20""",jpg,TRUE,TRUE
-1009,price_1HWQo4ArX6pWnJoFUSWIg861,1009::Barcelona,Barcelona,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
-1010,price_1HWQo4ArX6pWnJoFQ8V03vtX,1010::Biker,Biker,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1011,price_1HWQo4ArX6pWnJoFt7q149iK,1011::Blue Beard and his 10th Wife,Blue Beard and his 10th Wife,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1012,price_1HWQo4ArX6pWnJoFzm59uYxy,1012::Blue City,Blue City,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1013,price_1HWQo4ArX6pWnJoFOBd0iJA8,1013::Brandenburg,Brandenburg,Tempera and ink wash,,"16"" x 20""",jpg,TRUE,TRUE
-1014,price_1HWQo4ArX6pWnJoFocfLul7L,1014::Building 38,Building 38,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1016,price_1HWQo4ArX6pWnJoFxYgPQag2,1016::Butterfly,Butterfly,Watercolor,"6"" x 4""","16"" x 20""",jpg,TRUE,TRUE
-1017,price_1HWQo4ArX6pWnJoFCZ6H4iKs,1017::Colorado,Colorado,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1018,price_1HWQo4ArX6pWnJoFEXaOmedT,1018::Couple,Couple,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1019,price_1HWQo4ArX6pWnJoFyfIMts9U,1019::Eve,Eve,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
-1020,price_1HWQo4ArX6pWnJoFMMAqCTLP,1020::Zhenya and Ira Dancing,Zhenya and Ira Dancing,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1021,price_1HWQo4ArX6pWnJoFYIxN5XBK,1021::Yellow Lady,Yellow Lady,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1022,price_1HWQo4ArX6pWnJoFOf3fB6DK,1022::Yellow Bird,Yellow Bird,Digital,,"16"" x 20""",png,FALSE,TRUE
-1023,price_1HWQo4ArX6pWnJoFFQeSg5gz,1023::King Cat,King Cat,Digital,,"16"" x 20""",jpg,FALSE,TRUE
-1024,price_1HWQo4ArX6pWnJoFypnz7fSl,1024::Five O'Clock Tea,Five O'Clock Tea,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1025,price_1HWQo4ArX6pWnJoFPPS6dum9,1025::A Few of my Favorite Things,A Few of my Favorite Things,Watercolor,,"16"" x 20""",jpg,TRUE,TRUE
-1027,price_1HWQo4ArX6pWnJoFDSUCWvRN,1027::Duet,Duet,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
-1028,price_1HWQo4ArX6pWnJoFp4hO1Fch,1028::Dog,Dog,Digital,,"16"" x 20""",png,FALSE,TRUE
-1029,price_1HWQo4ArX6pWnJoFphjBhKPo,1029::Dancer in Blue,Dancer in Blue,Digital,,"16"" x 20""",jpg,FALSE,TRUE
-1030,price_1HWQo4ArX6pWnJoF8e4h2W6X,1030::Women of Power,Women of Power,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1031,price_1HWQo4ArX6pWnJoFCjbV2QKc,1031::Fairies with Newborn Boy,Fairies with Newborn Boy,Digital,,"16"" x 20""",jpg,FALSE,TRUE
-1032,price_1HWQo4ArX6pWnJoFYkeqFayT,1032::Winter,Winter,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1033,price_1HWQo4ArX6pWnJoFaGXPS5nE,1033::When in Paris,When in Paris,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
-1034,price_1HWQo4ArX6pWnJoFoHSTlnmj,1034::Wedding,Wedding,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1035,price_1HWQo4ArX6pWnJoFnWOAJZZy,1035::Gypsy,Gypsy,Watercolor,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
-1036,price_1HWQo4ArX6pWnJoFsERZ26Mm,1036::Upside Down,Upside Down,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1037,price_1HWQo4ArX6pWnJoFZR6Uu31V,1037::Two Faces,Two Faces,Charcoal,,"16"" x 20""",jpg,FALSE,TRUE
-1038,price_1HWQo4ArX6pWnJoFsRTGopRk,1038::Tooth Fairy,Tooth Fairy,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1039,price_1HWQo4ArX6pWnJoF32Rddi9p,1039::Waiter,Waiter,Digital,,"16"" x 20""",jpg,FALSE,TRUE
-1040,price_1HWQo4ArX6pWnJoFGdFAUezy,1040::Flamingo,Flamingo,Digital,,"16"" x 20""",png,FALSE,TRUE
-1041,price_1HWQo4ArX6pWnJoFIw2J4rCh,1041::In the Name of Mozart,In the Name of Mozart,Charcoal,,"16"" x 20""",jpg,FALSE,TRUE
-1042,price_1HWQo4ArX6pWnJoFKwzLyFTC,1042::Two Ladies-in-Waiting,Two Ladies-in-Waiting,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1043,price_1HWQo4ArX6pWnJoFQM7QW5MH,1043::Singer,Singer,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1044,price_1HWQo4ArX6pWnJoFjfrhqhEs,1044::Singers,Singers,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1045,price_1HWQo4ArX6pWnJoFAY3gZgai,1045::Couple in Stripes,Couple in Stripes,Digital,,"16"" x 20""",jpg,FALSE,TRUE
-1046,price_1HWQo4ArX6pWnJoFhqZ9Tauf,1046::Friends,Friends,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1047,price_1HWQo4ArX6pWnJoFX3yG4PTz,1047::Giraffe,Giraffe,Digital,,"16"" x 20""",jpg,FALSE,TRUE
-1048,price_1HWQo4ArX6pWnJoFFl65i30c,1048::Fur Elana,Fur Elana,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1049,price_1HWQo4ArX6pWnJoFJtzG51Th,1049::Field of Joy,Field of Joy,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1055,price_1HWQo4ArX6pWnJoFqodlsAry,1055::Estelle's Family,Estelle's Family,Tempera and ink wash,,"16"" x 20""",png,FALSE,TRUE
-1056,price_1HWQo4ArX6pWnJoFxogAVHbg,1056::Estelle's View,Estelle's View,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1057,price_1HWQo4ArX6pWnJoFOSJmnPae,1057::Wedding Etruscan Style,Wedding Etruscan Style,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1058,price_1HWQo4ArX6pWnJoF9POLrIhh,1058::Tuba Player,Tuba Player,Watercolor,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1060,price_1HWQo4ArX6pWnJoFZ07O6TVB,1060::Trio,Trio,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1061,price_1HWQo4ArX6pWnJoFebXghUKk,1061::Three Bosses,Three Bosses,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1062,price_1HWQo4ArX6pWnJoF4nhK1UTD,1062::Tango,Tango,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1063,price_1HWQo4ArX6pWnJoFbjpwtnft,1063::Gossip,Gossip,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1064,price_1HWQo4ArX6pWnJoFLAnHTHb0,1064::Great Toucan Exhibition,Great Toucan Exhibition,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1065,price_1HWQo4ArX6pWnJoFkdO52mU7,1065::Green Bug,Green Bug,Watercolor,"6"" x 6""","16"" x 20""",jpg,TRUE,TRUE
-1066,price_1HWQo4ArX6pWnJoFzXX0uDVi,1066::Guitarista,Guitarista,Tempera and ink wash,"10"" x 8""","16"" x 20""",jpg,FALSE,TRUE
-1067,price_1HWQo4ArX6pWnJoFNVa3h8wp,1067::Gymnast,Gymnast,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1068,price_1HWQo4ArX6pWnJoFNQQGtyoX,1068::Hanover,Hanover,Tempera and ink wash,"11"" x 8""","16"" x 20""",jpg,FALSE,TRUE
-1069,price_1HWQo4ArX6pWnJoFPonSAfY8,1069::Jew in the City,Jew in the City,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1070,price_1HWQo4ArX6pWnJoFwC42yEgq,1070::Jacob's Dream,Jacob's Dream,Watercolor,"10"" x 10""","16"" x 20""",jpg,TRUE,TRUE
-1071,price_1HWQo4ArX6pWnJoF1Qg65Uez,1071::Jacob's Wedding,Jacob's Wedding,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1072,price_1HWQo4ArX6pWnJoFVVAR21US,1072::Dance,Dance,Digital,,"16"" x 20""",png,TRUE,TRUE
-1073,price_1HWQo4ArX6pWnJoF5v0CW51c,1073::Flute Player in Blue,Flute Player in Blue,Digital,,"16"" x 20""",png,TRUE,TRUE
-1074,price_1HWQo4ArX6pWnJoF8kfMsyIk,1074::Flower Pot,Flower Pot,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1075,price_1HWQo4ArX6pWnJoFSbp9jfWV,1075::Date,Date,Digital,,"16"" x 20""",png,TRUE,TRUE
-1076,price_1HWQo4ArX6pWnJoFM08RrEYO,1076::Flute Player in Green,Flute Player in Green,Tempera and ink wash,,"16"" x 20""",jpg,TRUE,TRUE
-1077,price_1HWQo4ArX6pWnJoFuRVIgqhU,1077::Deep Thoughts,Deep Thoughts,Digital,,"16"" x 20""",jpg,FALSE,TRUE
-1078,price_1HWQo4ArX6pWnJoFSkp7bCKO,1078::Dancer in Red,Dancer in Red,Digital,,"16"" x 20""",png,TRUE,TRUE
-1079,price_1HWQo4ArX6pWnJoFgHFtTlQ0,1079::In the Met with Dinne,In the Met with Dinne,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1080,price_1HWQo4ArX6pWnJoFwDsLP2Un,1080::Happy Passover,Happy Passover,Digital,,"16"" x 20""",png,TRUE,TRUE
-1081,price_1HWQo4ArX6pWnJoFXj2urNEP,1081::Intercontinental Midsummer Dream,Intercontinental Midsummer Dream,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
-1082,price_1HWQo4ArX6pWnJoF2FUGCf0F,1082::Lightness of Being,Lightness of Being,Tempera and ink wash,"11"" x 14""","16"" x 20""",png,FALSE,TRUE
-1083,price_1HWQo4ArX6pWnJoFth7pZlZu,1083::Dancers,Dancers,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1084,price_1HWQo4ArX6pWnJoFzxKWEzHa,1084::Joy to the World,Joy to the World,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1085,price_1HWQo4ArX6pWnJoFWSY8QpG1,1085::Joy to the World-1,Joy to the World-1,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1086,price_1HWQo4ArX6pWnJoFzgfcYtKP,1086::Joy to the World-2,Joy to the World-2,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1087,price_1HWQo4ArX6pWnJoFSN5BHBuc,1087::Dancer in Green Skirt,Dancer in Green Skirt,Digital,,"16"" x 20""",jpg,FALSE,TRUE
-1088,price_1HWQo4ArX6pWnJoFlexYO6Yd,1088::Chuppah,Chuppah,Cloth,,"16"" x 20""",jpg,FALSE, FALSE
-1089,price_1HWQo4ArX6pWnJoFXvqq4ktH,1089::Cello,Cello,Digital,,"16"" x 20""",png,TRUE,TRUE
-1090,price_1HWQo4ArX6pWnJoFHlvwNOM1,1090::Jogglers,Jogglers,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
-1091,price_1HWQo4ArX6pWnJoF3a1CMxuF,1091::Heron,Heron,Digital,,"16"" x 20""",png,TRUE,TRUE
-1093,price_1HWQo4ArX6pWnJoF5Ynrn8cc,1093::Making Music,Making Music,Watercolor,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1094,price_1HWQo4ArX6pWnJoFOs0K35cL,1094::Klimt,Klimt,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
-1095,price_1HWQo4ArX6pWnJoFRrVdDidG,1095::Lady with Birdcage,Lady with Birdcage,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1096,price_1HWQo4ArX6pWnJoFhnehcaPV,1096::Pianist,Pianist,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1097,price_1HWQo4ArX6pWnJoFpXpPvHoz,1097::Map,Map,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1098,price_1HWQo4ArX6pWnJoFEUc9T3nr,1098::Dancer in Red Dress,Dancer in Red Dress,Digital,,"16"" x 20""",jpg,FALSE,TRUE
-1099,price_1HWQo4ArX6pWnJoFRyIDVMJU,1099::Flowers,Flowers,Digital,,"16"" x 20""",png,TRUE,TRUE
-1100,price_1HWQo4ArX6pWnJoFpbinnzKL,1100::Night Symphony,Night Symphony,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1101,price_1HWQo4ArX6pWnJoFgHXnge6P,1101::On the Ladder,On the Ladder,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1102,price_1HWQo4ArX6pWnJoFmEr1jl0j,1102::Prague,Prague,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1103,price_1HWQo4ArX6pWnJoFlhfEjqn5,1103::Ballerina3,Ballerina3,Digital,,"16"" x 20""",png,FALSE,TRUE
-1104,price_1HWQo4ArX6pWnJoFEpNyi0DI,1104::Ballerina4,Ballerina4,Digital,,"16"" x 20""",png,FALSE,TRUE
-1105,price_1HWQo4ArX6pWnJoFFVdtWtU3,1105::Knitting,Knitting,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1106,price_1HWQo4ArX6pWnJoFvodgmSLO,1106::Lady in Waiting,Lady in Waiting,Tempera and ink wash,,"16"" x 20""",jpg,TRUE,TRUE
-1107,price_1HWQo4ArX6pWnJoF52cb6ypJ,1107::Flutist,Flutist,Digital,,"16"" x 20""",png,TRUE,TRUE
-1108,price_1HWQo4ArX6pWnJoFvDCwPemp,1108::Paris,Paris,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1109,price_1HWQo4ArX6pWnJoFPde6nPzB,1109::Rapsody in Blue,Rapsody in Blue,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1110,price_1HWQo4ArX6pWnJoFEvy7Ixby,1110::Riga in Blue,Riga in Blue,Acrylic,,"16"" x 20""",jpg,TRUE,TRUE
-1111,price_1HWQo4ArX6pWnJoFdhmDMa9R,1111::Riga Old City,Riga Old City,Watercolor,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1112,price_1HWQo4ArX6pWnJoFMfpNFdy4,1112::Riga2,Riga2,Digital,,"16"" x 20""",jpg,FALSE,TRUE
-1113,price_1HWQo4ArX6pWnJoFppeTM3Pl,1113::Riga6,Riga6,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1114,price_1HWQo4ArX6pWnJoF6Wkk1lXj,1114::Home,Home,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1115,price_1HWQo4ArX6pWnJoF1nhJFs3J,1115::My Cat,My Cat,Charcoal,,"16"" x 20""",jpg,FALSE,TRUE
-1116,price_1HWQo4ArX6pWnJoFEbDb4hg5,1116::Birthday card,Birthday card,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1117,price_1HWQo4ArX6pWnJoFPVHBz5rf,1117::Lady with Guitar,Lady with Guitar,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1118,price_1HWQo4ArX6pWnJoFekiULLIj,1118::Reach for the Sky,Reach for the Sky,Watercolor,,"16"" x 20""",jpg,TRUE,TRUE
-1119,price_1HWQo4ArX6pWnJoFECcN8DKy,1119::Riga,Riga,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1120,price_1HWQo4ArX6pWnJoFvvnyKRQf,1120::Man in Blue Suit,Man in Blue Suit,Watercolor,,"16"" x 20""",jpg,TRUE,TRUE
-1121,price_1HWQo4ArX6pWnJoF08twuO1D,1121::Rosh Hashana,Rosh Hashana,Watercolor,,"16"" x 20""",jpg,FALSE,TRUE
-1122,price_1HWQo4ArX6pWnJoFOt8jviyd,1122::Rosh Hashana1,Rosh Hashana1,Tempera and ink wash,,"16"" x 20""",jpg,TRUE,TRUE
-1123,price_1HWQo4ArX6pWnJoFbHVEW693,1123::Shabbat,Shabbat,Charcoal,,"16"" x 20""",jpg,TRUE,TRUE
-1124,price_1HWQo4ArX6pWnJoFxTvZ7lQi,1124::Shabbat-1,Shabbat-1,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1125,price_1HWQo4ArX6pWnJoFDuk5zrfx,1125::She,She,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1126,price_1HWQo4ArX6pWnJoFZQtDBOoX,1126::Song of Songs,Song of Songs,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1127,price_1HWQo4ArX6pWnJoFA0hv6MuY,1127::Good Night,Good Night,Digital,,"16"" x 20""",png,FALSE,TRUE
-1128,price_1HWQo4ArX6pWnJoFevTatXzU,1128::Rosh Hashana2,Rosh Hashana2,Digital,,"16"" x 20""",jpg,FALSE,TRUE
-1129,price_1HWQo4ArX6pWnJoF58rmcyfZ,1129::SimchatTorah,SimchatTorah,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1130,price_1HWQo4ArX6pWnJoFbZLeFMjq,1130::Wedding1,Wedding1,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
-1131,price_1HWQo4ArX6pWnJoF833gqwdA,1131::Starlight Kiss,Starlight Kiss,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1132,price_1HWQo4ArX6pWnJoFF3r5ZfSw,1132::Solving World Problems,Solving World Problems,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
-1133,price_1HWQo4ArX6pWnJoFyydXZ6BR,1133::Wedding4,Wedding4,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,FALSE,TRUE
-1134,price_1HWQo4ArX6pWnJoFx294uZo5,1134::Violinist,Violinist,Mixed media,,"16"" x 20""",jpg,FALSE,FALSE
-1135,price_1HWQo4ArX6pWnJoFlsW1xsMR,1135::Wedding2,Wedding2,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
-1136,price_1HWQo4ArX6pWnJoFnZUEE7cp,1136::Rooster,Rooster,Digital,,"16"" x 20""",png,FALSE,TRUE
-1137,price_1HWQo4ArX6pWnJoFrLiWEikG,1137::Piano Player,Piano Player,Tempera and ink wash,,"16"" x 20""",jpg,FALSE,TRUE
-1138,price_1HWQo4ArX6pWnJoFERfGT52S,1138::Red Bird,Red Bird,Digital,,"16"" x 20""",jpg,FALSE,TRUE
-1139,price_1HWQo4ArX6pWnJoFBw9QZgEN,1139::Raven,Raven,Digital,,"16"" x 20""",png,FALSE,TRUE
-1140,price_1HWQo4ArX6pWnJoFXn9ECgC6,1140::Wedding5 - Mating Dances,Wedding5 - Mating Dances,Tempera and ink wash,"11"" x 14""","16"" x 20""",jpg,TRUE,TRUE
+1001,price_1HWQo4ArX6pWnJoFuYQaruuw,1001::A Dame with a Dog,A Dame with a Dog,Tempera and ink wash,11 x 14,16 x 20,jpg,TRUE,TRUE
+1002,price_1HWQo4ArX6pWnJoF82hSm5BY,1002::A Game of Chess,A Game of Chess,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1003,price_1HWQo4ArX6pWnJoF4mTuirgy,1003::A Man with a Cat,A Man with a Cat,Tempera and ink wash,10 x 10,16 x 20,jpg,FALSE,TRUE
+1004,price_1HWQo4ArX6pWnJoFOmUzY7Ku,1004::A Trip Abroad,A Trip Abroad,Tempera and ink wash,,16 x 20,jpg,TRUE,TRUE
+1005,price_1HWQo4ArX6pWnJoF79Cinxm9,1005::A Woman in Red Stripes,A Woman in Red Stripes,Digital,,16 x 20,jpg,FALSE,TRUE
+1006,price_1HWQo4ArX6pWnJoFKMXkTECG,1006::Ananas Lady,Ananas Lady,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1007,price_1HWQo4ArX6pWnJoFUKAdJ6mz,1007::Army,Army,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1008,price_1HWQo4ArX6pWnJoFnfqYMsLW,1008::Ballerina,Ballerina,Tempera and ink wash,,16 x 20,jpg,TRUE,TRUE
+1009,price_1HWQo4ArX6pWnJoFUSWIg861,1009::Barcelona,Barcelona,Tempera and ink wash,11 x 14,16 x 20,jpg,TRUE,TRUE
+1010,price_1HWQo4ArX6pWnJoFQ8V03vtX,1010::Biker,Biker,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1011,price_1HWQo4ArX6pWnJoFt7q149iK,1011::Blue Beard and his 10th Wife,Blue Beard and his 10th Wife,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1012,price_1HWQo4ArX6pWnJoFzm59uYxy,1012::Blue City,Blue City,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1013,price_1HWQo4ArX6pWnJoFOBd0iJA8,1013::Brandenburg,Brandenburg,Tempera and ink wash,,16 x 20,jpg,TRUE,TRUE
+1014,price_1HWQo4ArX6pWnJoFocfLul7L,1014::Building 38,Building 38,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1016,price_1HWQo4ArX6pWnJoFxYgPQag2,1016::Butterfly,Butterfly,Watercolor,6 x 4,16 x 20,jpg,TRUE,TRUE
+1017,price_1HWQo4ArX6pWnJoFCZ6H4iKs,1017::Colorado,Colorado,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1018,price_1HWQo4ArX6pWnJoFEXaOmedT,1018::Couple,Couple,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1019,price_1HWQo4ArX6pWnJoFyfIMts9U,1019::Eve,Eve,Tempera and ink wash,11 x 14,16 x 20,jpg,TRUE,TRUE
+1020,price_1HWQo4ArX6pWnJoFMMAqCTLP,1020::Zhenya and Ira Dancing,Zhenya and Ira Dancing,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1021,price_1HWQo4ArX6pWnJoFYIxN5XBK,1021::Yellow Lady,Yellow Lady,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1022,price_1HWQo4ArX6pWnJoFOf3fB6DK,1022::Yellow Bird,Yellow Bird,Digital,,16 x 20,png,FALSE,TRUE
+1023,price_1HWQo4ArX6pWnJoFFQeSg5gz,1023::King Cat,King Cat,Digital,,16 x 20,jpg,FALSE,TRUE
+1024,price_1HWQo4ArX6pWnJoFypnz7fSl,1024::Five O'Clock Tea,Five O'Clock Tea,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1025,price_1HWQo4ArX6pWnJoFPPS6dum9,1025::A Few of my Favorite Things,A Few of my Favorite Things,Watercolor,,16 x 20,jpg,TRUE,TRUE
+1027,price_1HWQo4ArX6pWnJoFDSUCWvRN,1027::Duet,Duet,Tempera and ink wash,11 x 14,16 x 20,jpg,TRUE,TRUE
+1028,price_1HWQo4ArX6pWnJoFp4hO1Fch,1028::Dog,Dog,Digital,,16 x 20,png,FALSE,TRUE
+1029,price_1HWQo4ArX6pWnJoFphjBhKPo,1029::Dancer in Blue,Dancer in Blue,Digital,,16 x 20,jpg,FALSE,TRUE
+1030,price_1HWQo4ArX6pWnJoF8e4h2W6X,1030::Women of Power,Women of Power,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1031,price_1HWQo4ArX6pWnJoFCjbV2QKc,1031::Fairies with Newborn Boy,Fairies with Newborn Boy,Digital,,16 x 20,jpg,FALSE,TRUE
+1032,price_1HWQo4ArX6pWnJoFYkeqFayT,1032::Winter,Winter,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1033,price_1HWQo4ArX6pWnJoFaGXPS5nE,1033::When in Paris,When in Paris,Tempera and ink wash,11 x 14,16 x 20,jpg,TRUE,TRUE
+1034,price_1HWQo4ArX6pWnJoFoHSTlnmj,1034::Wedding,Wedding,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1035,price_1HWQo4ArX6pWnJoFnWOAJZZy,1035::Gypsy,Gypsy,Watercolor,11 x 14,16 x 20,jpg,TRUE,TRUE
+1036,price_1HWQo4ArX6pWnJoFsERZ26Mm,1036::Upside Down,Upside Down,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1037,price_1HWQo4ArX6pWnJoFZR6Uu31V,1037::Two Faces,Two Faces,Charcoal,,16 x 20,jpg,FALSE,TRUE
+1038,price_1HWQo4ArX6pWnJoFsRTGopRk,1038::Tooth Fairy,Tooth Fairy,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1039,price_1HWQo4ArX6pWnJoF32Rddi9p,1039::Waiter,Waiter,Digital,,16 x 20,jpg,FALSE,TRUE
+1040,price_1HWQo4ArX6pWnJoFGdFAUezy,1040::Flamingo,Flamingo,Digital,,16 x 20,png,FALSE,TRUE
+1041,price_1HWQo4ArX6pWnJoFIw2J4rCh,1041::In the Name of Mozart,In the Name of Mozart,Charcoal,,16 x 20,jpg,FALSE,TRUE
+1042,price_1HWQo4ArX6pWnJoFKwzLyFTC,1042::Two Ladies-in-Waiting,Two Ladies-in-Waiting,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1043,price_1HWQo4ArX6pWnJoFQM7QW5MH,1043::Singer,Singer,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1044,price_1HWQo4ArX6pWnJoFjfrhqhEs,1044::Singers,Singers,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1045,price_1HWQo4ArX6pWnJoFAY3gZgai,1045::Couple in Stripes,Couple in Stripes,Digital,,16 x 20,jpg,FALSE,TRUE
+1046,price_1HWQo4ArX6pWnJoFhqZ9Tauf,1046::Friends,Friends,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1047,price_1HWQo4ArX6pWnJoFX3yG4PTz,1047::Giraffe,Giraffe,Digital,,16 x 20,jpg,FALSE,TRUE
+1048,price_1HWQo4ArX6pWnJoFFl65i30c,1048::Fur Elana,Fur Elana,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1049,price_1HWQo4ArX6pWnJoFJtzG51Th,1049::Field of Joy,Field of Joy,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1055,price_1HWQo4ArX6pWnJoFqodlsAry,1055::Estelle's Family,Estelle's Family,Tempera and ink wash,,16 x 20,png,FALSE,TRUE
+1056,price_1HWQo4ArX6pWnJoFxogAVHbg,1056::Estelle's View,Estelle's View,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1057,price_1HWQo4ArX6pWnJoFOSJmnPae,1057::Wedding Etruscan Style,Wedding Etruscan Style,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1058,price_1HWQo4ArX6pWnJoF9POLrIhh,1058::Tuba Player,Tuba Player,Watercolor,11 x 14,16 x 20,jpg,FALSE,TRUE
+1060,price_1HWQo4ArX6pWnJoFZ07O6TVB,1060::Trio,Trio,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1061,price_1HWQo4ArX6pWnJoFebXghUKk,1061::Three Bosses,Three Bosses,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1062,price_1HWQo4ArX6pWnJoF4nhK1UTD,1062::Tango,Tango,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1063,price_1HWQo4ArX6pWnJoFbjpwtnft,1063::Gossip,Gossip,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1064,price_1HWQo4ArX6pWnJoFLAnHTHb0,1064::Great Toucan Exhibition,Great Toucan Exhibition,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1065,price_1HWQo4ArX6pWnJoFkdO52mU7,1065::Green Bug,Green Bug,Watercolor,6 x 6,16 x 20,jpg,TRUE,TRUE
+1066,price_1HWQo4ArX6pWnJoFzXX0uDVi,1066::Guitarista,Guitarista,Tempera and ink wash,10 x 8,16 x 20,jpg,FALSE,TRUE
+1067,price_1HWQo4ArX6pWnJoFNVa3h8wp,1067::Gymnast,Gymnast,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1068,price_1HWQo4ArX6pWnJoFNQQGtyoX,1068::Hanover,Hanover,Tempera and ink wash,11 x 8,16 x 20,jpg,FALSE,TRUE
+1069,price_1HWQo4ArX6pWnJoFPonSAfY8,1069::Jew in the City,Jew in the City,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1070,price_1HWQo4ArX6pWnJoFwC42yEgq,1070::Jacob's Dream,Jacob's Dream,Watercolor,10 x 10,16 x 20,jpg,TRUE,TRUE
+1071,price_1HWQo4ArX6pWnJoF1Qg65Uez,1071::Jacob's Wedding,Jacob's Wedding,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1072,price_1HWQo4ArX6pWnJoFVVAR21US,1072::Dance,Dance,Digital,,16 x 20,png,TRUE,TRUE
+1073,price_1HWQo4ArX6pWnJoF5v0CW51c,1073::Flute Player in Blue,Flute Player in Blue,Digital,,16 x 20,png,TRUE,TRUE
+1074,price_1HWQo4ArX6pWnJoF8kfMsyIk,1074::Flower Pot,Flower Pot,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1075,price_1HWQo4ArX6pWnJoFSbp9jfWV,1075::Date,Date,Digital,,16 x 20,png,TRUE,TRUE
+1076,price_1HWQo4ArX6pWnJoFM08RrEYO,1076::Flute Player in Green,Flute Player in Green,Tempera and ink wash,,16 x 20,jpg,TRUE,TRUE
+1077,price_1HWQo4ArX6pWnJoFuRVIgqhU,1077::Deep Thoughts,Deep Thoughts,Digital,,16 x 20,jpg,FALSE,TRUE
+1078,price_1HWQo4ArX6pWnJoFSkp7bCKO,1078::Dancer in Red,Dancer in Red,Digital,,16 x 20,png,TRUE,TRUE
+1079,price_1HWQo4ArX6pWnJoFgHFtTlQ0,1079::In the Met with Dinne,In the Met with Dinne,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1080,price_1HWQo4ArX6pWnJoFwDsLP2Un,1080::Happy Passover,Happy Passover,Digital,,16 x 20,png,TRUE,TRUE
+1081,price_1HWQo4ArX6pWnJoFXj2urNEP,1081::Intercontinental Midsummer Dream,Intercontinental Midsummer Dream,Tempera and ink wash,11 x 14,16 x 20,jpg,TRUE,TRUE
+1082,price_1HWQo4ArX6pWnJoF2FUGCf0F,1082::Lightness of Being,Lightness of Being,Tempera and ink wash,11 x 14,16 x 20,png,FALSE,TRUE
+1083,price_1HWQo4ArX6pWnJoFth7pZlZu,1083::Dancers,Dancers,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1084,price_1HWQo4ArX6pWnJoFzxKWEzHa,1084::Joy to the World,Joy to the World,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1085,price_1HWQo4ArX6pWnJoFWSY8QpG1,1085::Joy to the World-1,Joy to the World-1,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1086,price_1HWQo4ArX6pWnJoFzgfcYtKP,1086::Joy to the World-2,Joy to the World-2,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1087,price_1HWQo4ArX6pWnJoFSN5BHBuc,1087::Dancer in Green Skirt,Dancer in Green Skirt,Digital,,16 x 20,jpg,FALSE,TRUE
+1088,price_1HWQo4ArX6pWnJoFlexYO6Yd,1088::Chuppah,Chuppah,Cloth,,16 x 20,jpg,FALSE, FALSE
+1089,price_1HWQo4ArX6pWnJoFXvqq4ktH,1089::Cello,Cello,Digital,,16 x 20,png,TRUE,TRUE
+1090,price_1HWQo4ArX6pWnJoFHlvwNOM1,1090::Jogglers,Jogglers,Tempera and ink wash,11 x 14,16 x 20,jpg,TRUE,TRUE
+1091,price_1HWQo4ArX6pWnJoF3a1CMxuF,1091::Heron,Heron,Digital,,16 x 20,png,TRUE,TRUE
+1093,price_1HWQo4ArX6pWnJoF5Ynrn8cc,1093::Making Music,Making Music,Watercolor,11 x 14,16 x 20,jpg,FALSE,TRUE
+1094,price_1HWQo4ArX6pWnJoFOs0K35cL,1094::Klimt,Klimt,Tempera and ink wash,11 x 14,16 x 20,jpg,TRUE,TRUE
+1095,price_1HWQo4ArX6pWnJoFRrVdDidG,1095::Lady with Birdcage,Lady with Birdcage,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1096,price_1HWQo4ArX6pWnJoFhnehcaPV,1096::Pianist,Pianist,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1097,price_1HWQo4ArX6pWnJoFpXpPvHoz,1097::Map,Map,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1098,price_1HWQo4ArX6pWnJoFEUc9T3nr,1098::Dancer in Red Dress,Dancer in Red Dress,Digital,,16 x 20,jpg,FALSE,TRUE
+1099,price_1HWQo4ArX6pWnJoFRyIDVMJU,1099::Flowers,Flowers,Digital,,16 x 20,png,TRUE,TRUE
+1100,price_1HWQo4ArX6pWnJoFpbinnzKL,1100::Night Symphony,Night Symphony,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1101,price_1HWQo4ArX6pWnJoFgHXnge6P,1101::On the Ladder,On the Ladder,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1102,price_1HWQo4ArX6pWnJoFmEr1jl0j,1102::Prague,Prague,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1103,price_1HWQo4ArX6pWnJoFlhfEjqn5,1103::Ballerina3,Ballerina3,Digital,,16 x 20,png,FALSE,TRUE
+1104,price_1HWQo4ArX6pWnJoFEpNyi0DI,1104::Ballerina4,Ballerina4,Digital,,16 x 20,png,FALSE,TRUE
+1105,price_1HWQo4ArX6pWnJoFFVdtWtU3,1105::Knitting,Knitting,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1106,price_1HWQo4ArX6pWnJoFvodgmSLO,1106::Lady in Waiting,Lady in Waiting,Tempera and ink wash,,16 x 20,jpg,TRUE,TRUE
+1107,price_1HWQo4ArX6pWnJoF52cb6ypJ,1107::Flutist,Flutist,Digital,,16 x 20,png,TRUE,TRUE
+1108,price_1HWQo4ArX6pWnJoFvDCwPemp,1108::Paris,Paris,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1109,price_1HWQo4ArX6pWnJoFPde6nPzB,1109::Rapsody in Blue,Rapsody in Blue,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1110,price_1HWQo4ArX6pWnJoFEvy7Ixby,1110::Riga in Blue,Riga in Blue,Acrylic,,16 x 20,jpg,TRUE,TRUE
+1111,price_1HWQo4ArX6pWnJoFdhmDMa9R,1111::Riga Old City,Riga Old City,Watercolor,11 x 14,16 x 20,jpg,FALSE,TRUE
+1112,price_1HWQo4ArX6pWnJoFMfpNFdy4,1112::Riga2,Riga2,Digital,,16 x 20,jpg,FALSE,TRUE
+1113,price_1HWQo4ArX6pWnJoFppeTM3Pl,1113::Riga6,Riga6,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1114,price_1HWQo4ArX6pWnJoF6Wkk1lXj,1114::Home,Home,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1115,price_1HWQo4ArX6pWnJoF1nhJFs3J,1115::My Cat,My Cat,Charcoal,,16 x 20,jpg,FALSE,TRUE
+1116,price_1HWQo4ArX6pWnJoFEbDb4hg5,1116::Birthday card,Birthday card,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1117,price_1HWQo4ArX6pWnJoFPVHBz5rf,1117::Lady with Guitar,Lady with Guitar,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1118,price_1HWQo4ArX6pWnJoFekiULLIj,1118::Reach for the Sky,Reach for the Sky,Watercolor,,16 x 20,jpg,TRUE,TRUE
+1119,price_1HWQo4ArX6pWnJoFECcN8DKy,1119::Riga,Riga,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1120,price_1HWQo4ArX6pWnJoFvvnyKRQf,1120::Man in Blue Suit,Man in Blue Suit,Watercolor,,16 x 20,jpg,TRUE,TRUE
+1121,price_1HWQo4ArX6pWnJoF08twuO1D,1121::Rosh Hashana,Rosh Hashana,Watercolor,,16 x 20,jpg,FALSE,TRUE
+1122,price_1HWQo4ArX6pWnJoFOt8jviyd,1122::Rosh Hashana1,Rosh Hashana1,Tempera and ink wash,,16 x 20,jpg,TRUE,TRUE
+1123,price_1HWQo4ArX6pWnJoFbHVEW693,1123::Shabbat,Shabbat,Charcoal,,16 x 20,jpg,TRUE,TRUE
+1124,price_1HWQo4ArX6pWnJoFxTvZ7lQi,1124::Shabbat-1,Shabbat-1,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1125,price_1HWQo4ArX6pWnJoFDuk5zrfx,1125::She,She,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1126,price_1HWQo4ArX6pWnJoFZQtDBOoX,1126::Song of Songs,Song of Songs,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1127,price_1HWQo4ArX6pWnJoFA0hv6MuY,1127::Good Night,Good Night,Digital,,16 x 20,png,FALSE,TRUE
+1128,price_1HWQo4ArX6pWnJoFevTatXzU,1128::Rosh Hashana2,Rosh Hashana2,Digital,,16 x 20,jpg,FALSE,TRUE
+1129,price_1HWQo4ArX6pWnJoF58rmcyfZ,1129::SimchatTorah,SimchatTorah,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1130,price_1HWQo4ArX6pWnJoFbZLeFMjq,1130::Wedding1,Wedding1,Tempera and ink wash,11 x 14,16 x 20,jpg,TRUE,TRUE
+1131,price_1HWQo4ArX6pWnJoF833gqwdA,1131::Starlight Kiss,Starlight Kiss,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1132,price_1HWQo4ArX6pWnJoFF3r5ZfSw,1132::Solving World Problems,Solving World Problems,Tempera and ink wash,11 x 14,16 x 20,jpg,TRUE,TRUE
+1133,price_1HWQo4ArX6pWnJoFyydXZ6BR,1133::Wedding4,Wedding4,Tempera and ink wash,11 x 14,16 x 20,jpg,FALSE,TRUE
+1134,price_1HWQo4ArX6pWnJoFx294uZo5,1134::Violinist,Violinist,Mixed media,,16 x 20,jpg,FALSE,FALSE
+1135,price_1HWQo4ArX6pWnJoFlsW1xsMR,1135::Wedding2,Wedding2,Tempera and ink wash,11 x 14,16 x 20,jpg,TRUE,TRUE
+1136,price_1HWQo4ArX6pWnJoFnZUEE7cp,1136::Rooster,Rooster,Digital,,16 x 20,png,FALSE,TRUE
+1137,price_1HWQo4ArX6pWnJoFrLiWEikG,1137::Piano Player,Piano Player,Tempera and ink wash,,16 x 20,jpg,FALSE,TRUE
+1138,price_1HWQo4ArX6pWnJoFERfGT52S,1138::Red Bird,Red Bird,Digital,,16 x 20,jpg,FALSE,TRUE
+1139,price_1HWQo4ArX6pWnJoFBw9QZgEN,1139::Raven,Raven,Digital,,16 x 20,png,FALSE,TRUE
+1140,price_1HWQo4ArX6pWnJoFXn9ECgC6,1140::Wedding5 - Mating Dances,Wedding5 - Mating Dances,Tempera and ink wash,11 x 14,16 x 20,jpg,TRUE,TRUE
+1141,price_1HYzzYArX6pWnJoFs629Pe5Q,1141::Balancing Act with Bird,Balancing Act with Bird,Tempera and ink wash,11 x 14,16 x 20,jpg,TRUE,TRUE
+1142,price_1HZ00hArX6pWnJoF1OKNC6of,1142::Lady in Red with Bluebird,Lady in Red with Bluebird, Watercolor,11 x 14,16 x 20,jpg,TRUE,TRUE
