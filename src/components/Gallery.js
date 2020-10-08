@@ -4,6 +4,7 @@ import Lightbox from 'react-images';
 
 import AddToCart from './AddToCart';
 import OriginalTag from './OriginalTag';
+import Banner from './Banner';
 
 class Gallery extends Component {
   constructor() {
@@ -93,21 +94,32 @@ class Gallery extends Component {
   }
   render() {
     return (
-      <div className="gallery">
-        {this.renderGallery()}
-        <Lightbox
-          currentImage={this.state.currentImage}
-          images={this.props.images.map(img => {
-            img.caption = `${img.title}`;
-            return img;
-          })}
-          isOpen={this.state.lightboxIsOpen}
-          onClickImage={this.handleClickImage}
-          onClickNext={this.gotoNext}
-          onClickPrev={this.gotoPrevious}
-          onClickThumbnail={this.gotoImage}
-          onClose={this.closeLightbox}
-        />
+      <div>
+        <Banner bgColor={'accent1'} position="first">
+          <h3>Matted prints: $60</h3>
+          <h6>Free shipping on orders over $200</h6>
+        </Banner>
+        <Banner bgColor={'accent2'} position="last">
+          <p>
+            Prints vary in size, but the matted dimensions are all 16" x 20".
+          </p>
+        </Banner>
+        <div className="gallery">
+          {this.renderGallery()}
+          <Lightbox
+            currentImage={this.state.currentImage}
+            images={this.props.images.map(img => {
+              img.caption = `${img.title}`;
+              return img;
+            })}
+            isOpen={this.state.lightboxIsOpen}
+            onClickImage={this.handleClickImage}
+            onClickNext={this.gotoNext}
+            onClickPrev={this.gotoPrevious}
+            onClickThumbnail={this.gotoImage}
+            onClose={this.closeLightbox}
+          />
+        </div>
       </div>
     );
   }

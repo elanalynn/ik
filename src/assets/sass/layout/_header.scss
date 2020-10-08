@@ -3,14 +3,11 @@ body {
 }
 
 #header {
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
   background: _palette(bg-alt);
   top: 0;
-  height: _size(header) + 1em;
+  height: 5rem;
   left: 0;
-  line-height: _size(header);
+  line-height: 4rem;
   padding: 0 1.5em;
   position: fixed;
   user-select: none;
