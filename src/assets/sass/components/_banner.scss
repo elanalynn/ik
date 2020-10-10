@@ -10,6 +10,10 @@
     @media screen and (max-width: 736px) {
       margin-top: 0;
     }
+
+    @media screen and (max-width: 640px) {
+      margin-top: 1.25rem;
+    }
   }
 
   &.last {
@@ -19,7 +23,13 @@
   h3,
   h6,
   p {
-    margin: 0;
+    margin: 0 auto;
+  }
+
+  p {
+    @media screen and (max-width: 640px) {
+      font-size: 0.75rem;
+    }
   }
 }
 

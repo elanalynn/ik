@@ -1,24 +1,30 @@
-body {
-  padding: 0 0 _size(header) 0;
-}
-
-#header {
+.header {
   background: _palette(bg-alt);
   top: 0;
   height: 5rem;
-  left: 0;
   line-height: 4rem;
   padding: 0 1.5em;
   position: fixed;
-  user-select: none;
   width: 100%;
   z-index: _misc(z-index-base) + 2;
+
+  .header-content {
+    margin: auto;
+    position: relative;
+
+    @media screen and (min-width: 75rem) {
+      max-width: 75rem;
+    }
+
+    @media screen and (min-width: 100rem) {
+      max-width: 100rem;
+    }
+  }
 
   h1 {
     color: _palette(light);
     display: inline-block;
     font-size: 1em;
-    line-height: 1;
     margin: 0.5rem 0 0;
     vertical-align: middle;
 
@@ -53,8 +59,13 @@ body {
           position: relative;
           color: _palette(light);
           letter-spacing: _font(kerning-alt);
-          margin: 0 1.5em;
+          margin: 0 1.5rem;
           text-transform: uppercase;
+
+          @media screen and (max-width: 640px) {
+            font-size: 0.75rem;
+            margin: 0 0.25rem;
+          }
 
           &:hover,
           &:focus {
