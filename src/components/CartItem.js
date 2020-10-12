@@ -2,7 +2,8 @@ import React, { useContext, useEffect, useState } from 'react';
 import CartContext from '../contexts/CartContext';
 import { addToCart, removeFromCart } from '../helpers/cartHelpers';
 
-const imgUrlBase = 'https://irina-assets.s3-us-west-1.amazonaws.com/';
+const imgUrlBase =
+  'https://irina-assets.s3-us-west-1.amazonaws.com/with_watermark/';
 
 const CartItem = ({ id, priceCode, title }) => {
   const context = useContext(CartContext);

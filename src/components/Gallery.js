@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Lightbox from 'react-images';
 
 import AddToCart from './AddToCart';
-import OriginalTag from './OriginalTag';
 import Banner from './Banner';
 
 class Gallery extends Component {
@@ -68,7 +67,7 @@ class Gallery extends Component {
     if (!images) return;
 
     const gallery = images.map(
-      ({ id, available, original, priceCode, src, title }, index) => {
+      ({ id, available, priceCode, src, title }, index) => {
         return (
           /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
           <article
@@ -81,7 +80,6 @@ class Gallery extends Component {
             <h2>
               <strong>{title}</strong>
             </h2>
-            {original === 'TRUE' && <OriginalTag />}
             {available === 'TRUE' && (
               <AddToCart id={id} title={title} priceCode={priceCode} />
             )}

@@ -4,7 +4,8 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Gallery from '../components/Gallery';
 
-const imgBaseUrl = 'https://irina-assets.s3-us-west-1.amazonaws.com/';
+const imgBaseUrl =
+  'https://irina-assets.s3-us-west-1.amazonaws.com/with_watermark';
 
 const IndexPage = props => {
   const data = props.data.allArtCsv.edges;
@@ -12,11 +13,10 @@ const IndexPage = props => {
     return {
       id: node.ID,
       available: node.AVAILABLE,
-      ext: node.EXT,
       mattedSize: node.MATTED_SIZE,
       original: node.ORIGINAL_AVAILABLE,
       priceCode: node.PRICE_CODE,
-      src: `${imgBaseUrl}${node.ID}.${node.EXT}`,
+      src: `${imgBaseUrl}/${node.ID}.jpg`,
       title: node.TITLE,
     };
   });
@@ -37,7 +37,6 @@ export const IndexQuery = graphql`
         node {
           ID
           AVAILABLE
-          EXT
           MATTED_SIZE
           MEDIUM
           ORIGINAL_AVAILABLE
